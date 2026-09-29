@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "scope": {},
+  "subject": {
+    "player_id": 1097465
+  },
+  "queryScope": {
+    "client_type": null,
+    "device_type": null,
+    "game_id": null,
+    "game_name": null,
+    "provider": null,
+    "unit_name": null
+  },
+  "action": "spin",
+  "lastQuery": {
+    "requested_fields": [
+      "Payload.ClientPayload.bet_amount",
+      "Payload.ClientPayload.win_amount"
+    ],
+    "filters": [
+      {
+        "field": "Payload.ClientPayload.action",
+        "operator": "equals",
+        "value": "spin"
+      },
+      {
+        "field": "Payload.ClientPayload.game_user_id",
+        "operator": "equals",
+        "value": "1097465"
+      }
+    ]
+  },
+  "timeRange": {
+    "type": "relative",
+    "amount": 10,
+    "unit": "hours",
+    "value": null
+  },
+  "updatedAt": "2026-09-22T03:38:42.801Z"
+}

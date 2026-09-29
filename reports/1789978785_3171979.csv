@@ -1,0 +1,12 @@
+"client_type",message,"total_errors","unique_users"
+web,"Request failed with status code 429",9,3
+app,"The game encountered an internal error.",6,1
+web,"Account info already in use, please contact support",6,3
+web,"The game encountered an internal error.",6,2
+web,"Account Not Found",4,2
+web,"We can't create a new account with your email. Please try a different one.",4,1
+web,"We are currently unable to validate this phone number. Please contact customer support.",3,2
+app,"Transaction Error - Please try again in 24 hours or contact customer service.",2,1
+app,"An Error was encountered in the Bonus Game",1,1
+web,"Request timed out.",1,1
+web,"Sorry, we could not load Apple Pay now.",1,1

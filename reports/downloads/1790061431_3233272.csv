@@ -1,0 +1,20 @@
+"client_type",message,"total_errors","unique_users"
+app,"We were unable to create your account. If you already have an account, please sign in or reset your password.",12,1
+web,"We can't create a new account with your email. Please try a different one.",8,1
+app,"We can't create a new account with your email. Please try a different one.",6,1
+web,"The game encountered an internal error.",5,2
+web,"Your request has been declined by the issuing bank.",4,1
+web,"Request failed with status code 429",3,1
+app,"We are currently unable to validate this phone number. Please contact customer support.",3,2
+app,"Access from your location is restricted",2,1
+web,"Account Not Found",2,2
+web,"Transaction Error - Please try again in 24 hours or contact customer service.",2,1
+web,"Your request has failed the AVS check. Note that the amount has still been reserved on the customer's card and will be released in 3-5 business days. Please ensure the billing address is accurate before retrying the transaction.",2,1
+app,"Email already exists",2,1
+web,"The card has been declined due to insufficient funds.",2,1
+web,"We were unable to create your account. If you already have an account, please sign in or reset your password.",2,1
+web,"Could not determine location.",1,1
+web,"Failed to claim daily bonus",1,1
+app,"Account Not Found",1,1
+app,"The server returned an error.",1,1
+app,"The verification code has expired",1,1

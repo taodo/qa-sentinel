@@ -1,0 +1,5 @@
+action,"client_type",type,status,"total_events","unique_users"
+"redemption_attempt",web,"debit_card",unknown,7,3
+"redemption_response",web,"debit_card",cancel,12,2
+"redemption_response",web,"debit_card",completed,1,1
+"redemption_response",web,"debit_card","manual_review",1,1

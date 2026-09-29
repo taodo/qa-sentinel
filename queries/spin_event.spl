@@ -1,0 +1,24 @@
+index="sweeps"
+"Payload.ClientPayload.action"="spin_event"
+
+| spath path=Payload.ClientPayload.game_provider_id output=provider
+| spath path=Payload.ClientPayload.support_code output=support_code
+| spath path=Payload.ClientPayload.client_type output=client_type
+| spath path=Payload.ClientPayload.spin_type output=spin_type
+| spath path=Payload.ClientPayload.unit_name output=unit_name
+| spath path=Payload.ClientPayload.win_type output=win_type
+
+| eval client_type=coalesce(client_type, "unknown")
+| eval spin_type=coalesce(spin_type, "unknown")
+| eval unit_name=coalesce(unit_name, "unknown")
+
+| stats
+    count as total_spins
+    dc(support_code) as unique_users
+    count(eval(win_type="win")) as total_win
+    count(eval(win_type="lose")) as total_lose
+by provider client_type spin_type unit_name
+
+| eval win_rate=round(total_win*100/total_spins,2)."%"
+
+| sort provider client_type -total_spins

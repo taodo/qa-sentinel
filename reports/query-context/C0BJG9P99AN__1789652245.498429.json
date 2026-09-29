@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "scope": {},
+  "subject": {
+    "player_id": 1103838
+  },
+  "queryScope": {
+    "client_type": null,
+    "device_type": null,
+    "game_id": null,
+    "game_name": "abcxyz",
+    "provider": null,
+    "unit_name": null
+  },
+  "action": "spin_event",
+  "lastQuery": {
+    "requested_fields": [
+      "Payload.ClientPayload.game_user_id",
+      "Payload.ClientPayload.game_name",
+      "Payload.ClientPayload.spin_type"
+    ],
+    "filters": [
+      {
+        "field": "Payload.ClientPayload.game_user_id",
+        "operator": "equals",
+        "value": "1103838"
+      },
+      {
+        "field": "Payload.ClientPayload.game_name",
+        "operator": "equals",
+        "value": "abcxyz"
+      },
+      {
+        "field": "Payload.ClientPayload.spin_type",
+        "operator": "equals",
+        "value": "sweep"
+      }
+    ]
+  },
+  "timeRange": {
+    "type": "relative",
+    "amount": 2,
+    "unit": "days",
+    "value": null
+  },
+  "updatedAt": "2026-09-17T13:37:29.175Z"
+}

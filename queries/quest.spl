@@ -1,0 +1,21 @@
+index="sweeps"
+"Payload.ClientPayload.action"="quest_end"
+"Payload.ClientPayload.status"="completed"
+
+| spath path=Payload.ClientPayload.index output=quest_index
+| spath path=Payload.ClientPayload.myvip_tier_id output=vip_tier
+| spath path=Payload.PartnerPlayerId output=player_id
+| spath path=Payload.ClientPayload.support_code output=support_code
+| spath path=Payload.ClientPayload.game_user_id output=game_user_id
+| spath path=Payload.ClientPayload.email output=email
+
+| eval user_key=coalesce(player_id, support_code, game_user_id, email)
+| eval quest_index=coalesce(quest_index, "unknown")
+| eval vip_tier=coalesce(vip_tier, "unknown")
+
+| stats
+    count as completed_quests
+    dc(user_key) as unique_users
+by quest_index vip_tier
+
+| sort quest_index vip_tier

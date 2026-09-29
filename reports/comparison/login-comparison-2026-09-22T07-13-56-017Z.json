@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "monitor": "login",
+    "slug": "login",
+    "displayName": "Login",
+    "generatedAtUtc": "2026-09-22T07:13:56.016Z",
+    "dimensions": [
+      "client_type"
+    ],
+    "metrics": [
+      "total_logins",
+      "unique_users"
+    ],
+    "primaryMetric": "unique_users",
+    "thresholds": {
+      "attention": "20% to below 40% drop",
+      "warning": "40% to 60% drop",
+      "critical": "Above 60% drop or current = 0"
+    }
+  },
+  "summary": {
+    "total_rows": 2,
+    "critical": 0,
+    "warning": 0,
+    "attention": 0,
+    "normal": 2
+  },
+  "comparisons": [
+    {
+      "client_type": "web",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "Worst drop: 11.89%"
+      },
+      "metrics": {
+        "total_logins": {
+          "current": 941,
+          "previous": 1068,
+          "yesterday": 1004,
+          "two_days_ago": 1044,
+          "change": {
+            "vs_previous": {
+              "percent": -11.89,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -6.27,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -9.87,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "Worst drop: 11.89%"
+          }
+        },
+        "unique_users": {
+          "current": 901,
+          "previous": 1028,
+          "yesterday": 938,
+          "two_days_ago": 996,
+          "change": {
+            "vs_previous": {
+              "percent": -12.35,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -3.94,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -9.54,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "Worst drop: 12.35%"
+          }
+        }
+      }
+    },
+    {
+      "client_type": "app",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "total_logins": {
+          "current": 267,
+          "previous": 266,
+          "yesterday": 241,
+          "two_days_ago": 248,
+          "change": {
+            "vs_previous": {
+              "percent": 0.38,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 10.79,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 7.66,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 257,
+          "previous": 255,
+          "yesterday": 232,
+          "two_days_ago": 237,
+          "change": {
+            "vs_previous": {
+              "percent": 0.78,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 10.78,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 8.44,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    }
+  ]
+}

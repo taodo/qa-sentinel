@@ -1,0 +1,21 @@
+"client_type",message,"total_errors","unique_users"
+web,"Request failed with status code 429",14,3
+web,"Account Not Found",6,3
+web,"Incorrect code. Please try again.",5,3
+app,"Failed to reveal daily bonus",4,1
+app,"We were unable to create your account. If you already have an account, please sign in or reset your password.",4,1
+app,"Account Not Found",3,1
+app,"Transaction Error - Please try again in 24 hours or contact customer service.",3,1
+app,"The card has been declined due to insufficient funds.",2,1
+web,"You submitted an expired credit card number with your request.",2,1
+web,"Your request has been declined by the issuing bank.",2,1
+app,"The server returned an error.",2,2
+web,"We can't create a new account with your email. Please try a different one.",2,1
+web,"We were unable to create your account. If you already have an account, please sign in or reset your password.",2,1
+app,"We can't create a new account with your email. Please try a different one.",1,1
+web,"Account info already in use, please contact support",1,1
+web,"The server returned an error.",1,1
+web,"We are currently unable to validate this phone number. Please contact customer support.",1,1
+web,"Access from your location is restricted",1,1
+web,"Failed to reveal daily bonus",1,1
+web,"The card has been declined due to insufficient funds.",1,1

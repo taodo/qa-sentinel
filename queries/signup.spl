@@ -1,0 +1,13 @@
+index="sweeps"
+"Payload.ClientPayload.action"="registration_complete"
+| spath path=Payload.ClientPayload.client_type output=client_type
+| spath path=Payload.ClientPayload.support_code output=support_code
+| spath path=Payload.ClientPayload.game_user_id output=game_user_id
+| spath path=Payload.ClientPayload.email output=email
+| eval client_type=coalesce(client_type, "unknown")
+| eval user_key=coalesce(support_code, game_user_id, email)
+| stats
+    count as total_signups
+    dc(user_key) as unique_users
+  by client_type
+| sort -total_signups

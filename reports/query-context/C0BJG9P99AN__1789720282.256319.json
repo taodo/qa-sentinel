@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "scope": {},
+  "subject": {
+    "player_id": 1212740
+  },
+  "queryScope": {
+    "client_type": null,
+    "device_type": null,
+    "game_id": null,
+    "game_name": null,
+    "provider": null,
+    "unit_name": null
+  },
+  "action": "spin",
+  "lastQuery": {
+    "requested_fields": [
+      "Payload.ClientPayload.game_name",
+      "Payload.ClientPayload.game_id"
+    ],
+    "filters": [
+      {
+        "field": "Payload.ClientPayload.game_user_id",
+        "operator": "equals",
+        "value": "1212740"
+      }
+    ]
+  },
+  "timeRange": {
+    "type": "relative",
+    "amount": 10,
+    "unit": "days",
+    "value": null
+  },
+  "updatedAt": "2026-09-18T08:33:26.643Z"
+}

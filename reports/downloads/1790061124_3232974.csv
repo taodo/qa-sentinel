@@ -1,0 +1,7 @@
+"client_type","payment_type","total_responses",completed,failed,cancelled,"purchasing_users","purchase_amount","avg_purchase_amount","cancelled_rate","completed_rate","failed_rate"
+app,"apple_pay",10,6,4,0,4,"34.94","5.823333333333334","0.00%","60.00%","40.00%"
+app,"credit_card",20,14,1,5,6,"387.86","27.704285714285714","25.00%","70.00%","5.00%"
+web,"apple_pay",22,8,3,11,6,"152.92","19.115000000000002","50.00%","36.36%","13.64%"
+web,"credit_card",102,48,21,33,17,"2724.52","56.760833333333316","32.35%","47.06%","20.59%"
+web,"pay_by_bank",1,0,0,1,0,0,,"100.00%","0.00%","0.00%"
+web,skrill,2,0,0,2,0,0,,"100.00%","0.00%","0.00%"

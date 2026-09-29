@@ -1,0 +1,17 @@
+"client_type",message,"total_errors","unique_users"
+web,"We can't create a new account with your email. Please try a different one.",11,1
+web,"We were unable to create your account. If you already have an account, please sign in or reset your password.",6,1
+web,"Account Not Found",5,1
+app,"We were unable to create your account. If you already have an account, please sign in or reset your password.",4,1
+app,"Account Not Found",3,1
+web,"The game encountered an internal error.",3,1
+web,"Your request has failed the AVS check. Note that the amount has still been reserved on the customer's card and will be released in 3-5 business days. Please ensure the billing address is accurate before retrying the transaction.",2,1
+app,"Request failed with status code 500",2,1
+web,"Error processing the payment. Please contact our support.",2,1
+web,"The card has been declined due to insufficient funds.",2,1
+app,"We can't create a new account with your email. Please try a different one.",1,1
+web,"Request failed with status code 429",1,1
+app,"There was an error (9014), please contact our support.",1,1
+app,"Transaction Error - Please try again in 24 hours or contact customer service.",1,1
+app,"We are currently unable to validate this phone number. Please contact customer support.",1,1
+web,"Failed to reveal daily bonus",1,1

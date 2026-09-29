@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "profiles": {
+    "spin_event": {
+      "status": "draft",
+      "common_fields": [
+        "Payload.ClientPayload.game_user_id",
+        "Payload.ClientPayload.game_id",
+        "Payload.ClientPayload.game_name",
+        "Payload.ClientPayload.game_provider_id",
+        "Payload.ClientPayload.provider",
+        "Payload.ClientPayload.client_type",
+        "Payload.ClientPayload.device_type",
+        "Payload.ClientPayload.game_session_id",
+        "Payload.ClientPayload.gameplay_session_id",
+        "Payload.ClientPayload.spin_type",
+        "Payload.ClientPayload.unit_name",
+        "Payload.ClientPayload.bet_value",
+        "Payload.ClientPayload.bet_amount",
+        "Payload.ClientPayload.bet_max_index",
+        "Payload.ClientPayload.value",
+        "Payload.ClientPayload.win_amount",
+        "Payload.ClientPayload.win_type",
+        "Payload.ClientPayload.spin_duration_ms",
+        "Payload.ClientPayload.spin_event_id"
+      ],
+      "notes": "Initial hints supplied for spin_event. Values/aliases are intentionally not defined here."
+    },
+    "modal_interact": {
+      "status": "draft",
+      "common_fields": [
+        "Payload.ClientPayload.game_user_id",
+        "Payload.ClientPayload.game_id",
+        "Payload.ClientPayload.game_name",
+        "Payload.ClientPayload.client_type",
+        "Payload.ClientPayload.device_type",
+        "Payload.ClientPayload.device_model",
+        "Payload.ClientPayload.os_platform",
+        "Payload.ClientPayload.os_version",
+        "Payload.ClientPayload.modal_id",
+        "Payload.ClientPayload.trigger_id",
+        "Payload.ClientPayload.button_id",
+        "Payload.ClientPayload.page_id",
+        "Payload.ClientPayload.page_source",
+        "Payload.ClientPayload.page_url"
+      ],
+      "notes": "Initial hints supplied for modal_interact. Values/aliases are intentionally not defined here."
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "monitor": "signup",
+    "slug": "signup",
+    "displayName": "Signup",
+    "generatedAtUtc": "2026-09-22T02:57:13.545Z",
+    "dimensions": [
+      "client_type"
+    ],
+    "metrics": [
+      "total_signups",
+      "unique_users"
+    ],
+    "primaryMetric": "unique_users",
+    "thresholds": {
+      "attention": "20% to below 40% drop",
+      "warning": "40% to 60% drop",
+      "critical": "Above 60% drop or current = 0"
+    }
+  },
+  "summary": {
+    "total_rows": 2,
+    "critical": 0,
+    "warning": 1,
+    "attention": 0,
+    "normal": 1
+  },
+  "comparisons": [
+    {
+      "client_type": "web",
+      "overall_severity": {
+        "level": "WARNING",
+        "reason": "Worst drop: 47.83%"
+      },
+      "metrics": {
+        "total_signups": {
+          "current": 12,
+          "previous": 14,
+          "yesterday": 22,
+          "two_days_ago": 23,
+          "change": {
+            "vs_previous": {
+              "percent": -14.29,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -45.45,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -47.83,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 47.83%"
+          }
+        },
+        "unique_users": {
+          "current": 12,
+          "previous": 14,
+          "yesterday": 22,
+          "two_days_ago": 23,
+          "change": {
+            "vs_previous": {
+              "percent": -14.29,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -45.45,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -47.83,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 47.83%"
+          }
+        }
+      }
+    },
+    {
+      "client_type": "app",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "total_signups": {
+          "current": 15,
+          "previous": 8,
+          "yesterday": 12,
+          "two_days_ago": 8,
+          "change": {
+            "vs_previous": {
+              "percent": 87.5,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 25,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 87.5,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 15,
+          "previous": 8,
+          "yesterday": 12,
+          "two_days_ago": 8,
+          "change": {
+            "vs_previous": {
+              "percent": 87.5,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 25,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 87.5,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    }
+  ]
+}

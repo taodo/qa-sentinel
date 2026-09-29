@@ -1,0 +1,4033 @@
+{
+  "metadata": {
+    "monitor": "quest",
+    "slug": "quest",
+    "displayName": "Quest",
+    "generatedAtUtc": "2026-09-22T07:18:47.447Z",
+    "dimensions": [
+      "quest_index",
+      "vip_tier"
+    ],
+    "metrics": [
+      "completed_quests",
+      "unique_users"
+    ],
+    "primaryMetric": "completed_quests",
+    "thresholds": {
+      "attention": "20% to below 40% drop",
+      "warning": "40% to 60% drop",
+      "critical": "Above 60% drop or current = 0"
+    }
+  },
+  "summary": {
+    "total_rows": 69,
+    "critical": 29,
+    "warning": 10,
+    "attention": 9,
+    "normal": 21
+  },
+  "comparisons": [
+    {
+      "quest_index": "3",
+      "vip_tier": "1",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 70.59%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 5,
+          "previous": 17,
+          "yesterday": 9,
+          "two_days_ago": 13,
+          "change": {
+            "vs_previous": {
+              "percent": -70.59,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -44.44,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -61.54,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 70.59%"
+          }
+        },
+        "unique_users": {
+          "current": 5,
+          "previous": 17,
+          "yesterday": 9,
+          "two_days_ago": 13,
+          "change": {
+            "vs_previous": {
+              "percent": -70.59,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -44.44,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -61.54,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 70.59%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "4",
+      "vip_tier": "1",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 72.73%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 3,
+          "previous": 11,
+          "yesterday": 6,
+          "two_days_ago": 7,
+          "change": {
+            "vs_previous": {
+              "percent": -72.73,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -57.14,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 72.73%"
+          }
+        },
+        "unique_users": {
+          "current": 3,
+          "previous": 11,
+          "yesterday": 6,
+          "two_days_ago": 7,
+          "change": {
+            "vs_previous": {
+              "percent": -72.73,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -57.14,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 72.73%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "4",
+      "vip_tier": "3",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 62.5%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 3,
+          "previous": 8,
+          "yesterday": 6,
+          "two_days_ago": 4,
+          "change": {
+            "vs_previous": {
+              "percent": -62.5,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -25,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 62.5%"
+          }
+        },
+        "unique_users": {
+          "current": 3,
+          "previous": 8,
+          "yesterday": 6,
+          "two_days_ago": 4,
+          "change": {
+            "vs_previous": {
+              "percent": -62.5,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -25,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 62.5%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "6",
+      "vip_tier": "3",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 66.67%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 2,
+          "previous": 6,
+          "yesterday": 2,
+          "two_days_ago": 3,
+          "change": {
+            "vs_previous": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 66.67%"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 6,
+          "yesterday": 2,
+          "two_days_ago": 3,
+          "change": {
+            "vs_previous": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 66.67%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "1",
+      "vip_tier": "6",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 80%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 1,
+          "previous": 5,
+          "yesterday": 3,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -80,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 80%"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 5,
+          "yesterday": 3,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -80,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 80%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "1",
+      "vip_tier": "7",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 88.89%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 1,
+          "previous": 9,
+          "yesterday": 2,
+          "two_days_ago": 4,
+          "change": {
+            "vs_previous": {
+              "percent": -88.89,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -75,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 88.89%"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 9,
+          "yesterday": 2,
+          "two_days_ago": 4,
+          "change": {
+            "vs_previous": {
+              "percent": -88.89,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -75,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 88.89%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "2",
+      "vip_tier": "6",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 66.67%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 1,
+          "previous": 2,
+          "yesterday": 3,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 66.67%"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 2,
+          "yesterday": 3,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 66.67%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "2",
+      "vip_tier": "7",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 85.71%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 1,
+          "previous": 7,
+          "yesterday": 0,
+          "two_days_ago": 3,
+          "change": {
+            "vs_previous": {
+              "percent": -85.71,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 85.71%"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 7,
+          "yesterday": 0,
+          "two_days_ago": 3,
+          "change": {
+            "vs_previous": {
+              "percent": -85.71,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 85.71%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "3",
+      "vip_tier": "6",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 66.67%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 3,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 66.67%"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 3,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 66.67%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "4",
+      "vip_tier": "7",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 75%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 1,
+          "previous": 4,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": -75,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 75%"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 4,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": -75,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 75%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "5",
+      "vip_tier": "5",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 83.33%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 1,
+          "previous": 6,
+          "yesterday": 1,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": -83.33,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 83.33%"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 6,
+          "yesterday": 1,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": -83.33,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 83.33%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "5",
+      "vip_tier": "7",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 66.67%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 1,
+          "previous": 3,
+          "yesterday": 1,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 66.67%"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 3,
+          "yesterday": 1,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 66.67%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "1",
+      "vip_tier": "5",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 0,
+          "previous": 11,
+          "yesterday": 3,
+          "two_days_ago": 2,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 11,
+          "yesterday": 3,
+          "two_days_ago": 2,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "1",
+      "vip_tier": "8",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 0,
+          "previous": 3,
+          "yesterday": 2,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 3,
+          "yesterday": 2,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "2",
+      "vip_tier": "5",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 0,
+          "previous": 10,
+          "yesterday": 2,
+          "two_days_ago": 2,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 10,
+          "yesterday": 2,
+          "two_days_ago": 2,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "3",
+      "vip_tier": "5",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 0,
+          "previous": 9,
+          "yesterday": 1,
+          "two_days_ago": 2,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 9,
+          "yesterday": 1,
+          "two_days_ago": 2,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "3",
+      "vip_tier": "9",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 0,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "4",
+      "vip_tier": "5",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 0,
+          "previous": 7,
+          "yesterday": 2,
+          "two_days_ago": 2,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 7,
+          "yesterday": 2,
+          "two_days_ago": 2,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "4",
+      "vip_tier": "9",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 0,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "5",
+      "vip_tier": "9",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 0,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "7",
+      "vip_tier": "6",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 0,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "4",
+      "vip_tier": "8",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "7",
+      "vip_tier": "7",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "8",
+      "vip_tier": "6",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "8",
+      "vip_tier": "7",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "9",
+      "vip_tier": "6",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "9",
+      "vip_tier": "7",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "10",
+      "vip_tier": "6",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "10",
+      "vip_tier": "7",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "2",
+      "vip_tier": "1",
+      "overall_severity": {
+        "level": "WARNING",
+        "reason": "Worst drop: 55%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 9,
+          "previous": 20,
+          "yesterday": 12,
+          "two_days_ago": 14,
+          "change": {
+            "vs_previous": {
+              "percent": -55,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -25,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -35.71,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 55%"
+          }
+        },
+        "unique_users": {
+          "current": 9,
+          "previous": 20,
+          "yesterday": 12,
+          "two_days_ago": 14,
+          "change": {
+            "vs_previous": {
+              "percent": -55,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -25,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -35.71,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 55%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "2",
+      "vip_tier": "4",
+      "overall_severity": {
+        "level": "WARNING",
+        "reason": "Worst drop: 40%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 3,
+          "previous": 3,
+          "yesterday": 5,
+          "two_days_ago": 5,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -40,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -40,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 40%"
+          }
+        },
+        "unique_users": {
+          "current": 3,
+          "previous": 3,
+          "yesterday": 5,
+          "two_days_ago": 5,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -40,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -40,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 40%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "3",
+      "vip_tier": "4",
+      "overall_severity": {
+        "level": "WARNING",
+        "reason": "Worst drop: 50%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 3,
+          "previous": 2,
+          "yesterday": 4,
+          "two_days_ago": 6,
+          "change": {
+            "vs_previous": {
+              "percent": 50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -25,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        },
+        "unique_users": {
+          "current": 3,
+          "previous": 2,
+          "yesterday": 4,
+          "two_days_ago": 6,
+          "change": {
+            "vs_previous": {
+              "percent": 50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -25,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "5",
+      "vip_tier": "1",
+      "overall_severity": {
+        "level": "WARNING",
+        "reason": "Worst drop: 50%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 3,
+          "previous": 6,
+          "yesterday": 4,
+          "two_days_ago": 5,
+          "change": {
+            "vs_previous": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -25,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -40,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        },
+        "unique_users": {
+          "current": 3,
+          "previous": 6,
+          "yesterday": 4,
+          "two_days_ago": 5,
+          "change": {
+            "vs_previous": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -25,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -40,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "5",
+      "vip_tier": "3",
+      "overall_severity": {
+        "level": "WARNING",
+        "reason": "Worst drop: 50%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 3,
+          "previous": 6,
+          "yesterday": 5,
+          "two_days_ago": 3,
+          "change": {
+            "vs_previous": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -40,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        },
+        "unique_users": {
+          "current": 3,
+          "previous": 6,
+          "yesterday": 5,
+          "two_days_ago": 3,
+          "change": {
+            "vs_previous": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -40,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "3",
+      "vip_tier": "7",
+      "overall_severity": {
+        "level": "WARNING",
+        "reason": "Worst drop: 50%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 2,
+          "previous": 4,
+          "yesterday": 0,
+          "two_days_ago": 2,
+          "change": {
+            "vs_previous": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 4,
+          "yesterday": 0,
+          "two_days_ago": 2,
+          "change": {
+            "vs_previous": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "6",
+      "vip_tier": "1",
+      "overall_severity": {
+        "level": "WARNING",
+        "reason": "Worst drop: 50%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 2,
+          "previous": 2,
+          "yesterday": 1,
+          "two_days_ago": 4,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 2,
+          "yesterday": 1,
+          "two_days_ago": 4,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "6",
+      "vip_tier": "5",
+      "overall_severity": {
+        "level": "WARNING",
+        "reason": "Worst drop: 50%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 2,
+          "previous": 4,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 4,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "7",
+      "vip_tier": "3",
+      "overall_severity": {
+        "level": "WARNING",
+        "reason": "Worst drop: 50%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 2,
+          "previous": 4,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 4,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "2",
+      "vip_tier": "8",
+      "overall_severity": {
+        "level": "WARNING",
+        "reason": "Worst drop: 50%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 1,
+          "previous": 2,
+          "yesterday": 1,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 2,
+          "yesterday": 1,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "1",
+      "vip_tier": "1",
+      "overall_severity": {
+        "level": "ATTENTION",
+        "reason": "Worst drop: 29.03%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 22,
+          "previous": 31,
+          "yesterday": 15,
+          "two_days_ago": 29,
+          "change": {
+            "vs_previous": {
+              "percent": -29.03,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 46.67,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -24.14,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 29.03%"
+          }
+        },
+        "unique_users": {
+          "current": 22,
+          "previous": 31,
+          "yesterday": 15,
+          "two_days_ago": 29,
+          "change": {
+            "vs_previous": {
+              "percent": -29.03,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 46.67,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -24.14,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 29.03%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "1",
+      "vip_tier": "2",
+      "overall_severity": {
+        "level": "ATTENTION",
+        "reason": "Worst drop: 35.29%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 11,
+          "previous": 11,
+          "yesterday": 15,
+          "two_days_ago": 17,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -26.67,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -35.29,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 35.29%"
+          }
+        },
+        "unique_users": {
+          "current": 11,
+          "previous": 11,
+          "yesterday": 14,
+          "two_days_ago": 17,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -21.43,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -35.29,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 35.29%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "2",
+      "vip_tier": "2",
+      "overall_severity": {
+        "level": "ATTENTION",
+        "reason": "Worst drop: 25%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 9,
+          "previous": 7,
+          "yesterday": 7,
+          "two_days_ago": 12,
+          "change": {
+            "vs_previous": {
+              "percent": 28.57,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 28.57,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -25,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 25%"
+          }
+        },
+        "unique_users": {
+          "current": 9,
+          "previous": 7,
+          "yesterday": 7,
+          "two_days_ago": 12,
+          "change": {
+            "vs_previous": {
+              "percent": 28.57,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 28.57,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -25,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 25%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "2",
+      "vip_tier": "3",
+      "overall_severity": {
+        "level": "ATTENTION",
+        "reason": "Worst drop: 27.27%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 8,
+          "previous": 11,
+          "yesterday": 6,
+          "two_days_ago": 6,
+          "change": {
+            "vs_previous": {
+              "percent": -27.27,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 33.33,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 33.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 27.27%"
+          }
+        },
+        "unique_users": {
+          "current": 8,
+          "previous": 11,
+          "yesterday": 6,
+          "two_days_ago": 6,
+          "change": {
+            "vs_previous": {
+              "percent": -27.27,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 33.33,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 33.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 27.27%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "1",
+      "vip_tier": "4",
+      "overall_severity": {
+        "level": "ATTENTION",
+        "reason": "Worst drop: 33.33%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 4,
+          "previous": 3,
+          "yesterday": 6,
+          "two_days_ago": 6,
+          "change": {
+            "vs_previous": {
+              "percent": 33.33,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 33.33%"
+          }
+        },
+        "unique_users": {
+          "current": 4,
+          "previous": 3,
+          "yesterday": 6,
+          "two_days_ago": 6,
+          "change": {
+            "vs_previous": {
+              "percent": 33.33,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 33.33%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "4",
+      "vip_tier": "4",
+      "overall_severity": {
+        "level": "ATTENTION",
+        "reason": "Worst drop: 25%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 3,
+          "previous": 2,
+          "yesterday": 1,
+          "two_days_ago": 4,
+          "change": {
+            "vs_previous": {
+              "percent": 50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 200,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -25,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 25%"
+          }
+        },
+        "unique_users": {
+          "current": 3,
+          "previous": 2,
+          "yesterday": 1,
+          "two_days_ago": 4,
+          "change": {
+            "vs_previous": {
+              "percent": 50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 200,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -25,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 25%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "5",
+      "vip_tier": "4",
+      "overall_severity": {
+        "level": "ATTENTION",
+        "reason": "Worst drop: 33.33%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 2,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 3,
+          "change": {
+            "vs_previous": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 33.33%"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 3,
+          "change": {
+            "vs_previous": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 33.33%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "6",
+      "vip_tier": "4",
+      "overall_severity": {
+        "level": "ATTENTION",
+        "reason": "Worst drop: 33.33%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 2,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 3,
+          "change": {
+            "vs_previous": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 33.33%"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 3,
+          "change": {
+            "vs_previous": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 33.33%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "7",
+      "vip_tier": "5",
+      "overall_severity": {
+        "level": "ATTENTION",
+        "reason": "Worst drop: 33.33%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 2,
+          "previous": 3,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 33.33%"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 3,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 33.33%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "1",
+      "vip_tier": "3",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 14,
+          "previous": 12,
+          "yesterday": 7,
+          "two_days_ago": 8,
+          "change": {
+            "vs_previous": {
+              "percent": 16.67,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 75,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 14,
+          "previous": 12,
+          "yesterday": 7,
+          "two_days_ago": 8,
+          "change": {
+            "vs_previous": {
+              "percent": 16.67,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 75,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "3",
+      "vip_tier": "2",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 11,
+          "previous": 4,
+          "yesterday": 5,
+          "two_days_ago": 6,
+          "change": {
+            "vs_previous": {
+              "percent": 175,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 120,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 83.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 11,
+          "previous": 4,
+          "yesterday": 5,
+          "two_days_ago": 6,
+          "change": {
+            "vs_previous": {
+              "percent": 175,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 120,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 83.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "4",
+      "vip_tier": "2",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 11,
+          "previous": 5,
+          "yesterday": 3,
+          "two_days_ago": 4,
+          "change": {
+            "vs_previous": {
+              "percent": 120,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 266.67,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 175,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 11,
+          "previous": 5,
+          "yesterday": 3,
+          "two_days_ago": 4,
+          "change": {
+            "vs_previous": {
+              "percent": 120,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 266.67,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 175,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "5",
+      "vip_tier": "2",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 10,
+          "previous": 7,
+          "yesterday": 3,
+          "two_days_ago": 4,
+          "change": {
+            "vs_previous": {
+              "percent": 42.86,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 233.33,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 150,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 10,
+          "previous": 7,
+          "yesterday": 3,
+          "two_days_ago": 4,
+          "change": {
+            "vs_previous": {
+              "percent": 42.86,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 233.33,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 150,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "6",
+      "vip_tier": "2",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 10,
+          "previous": 3,
+          "yesterday": 2,
+          "two_days_ago": 3,
+          "change": {
+            "vs_previous": {
+              "percent": 233.33,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 400,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 233.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 10,
+          "previous": 3,
+          "yesterday": 2,
+          "two_days_ago": 3,
+          "change": {
+            "vs_previous": {
+              "percent": 233.33,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 400,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 233.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "3",
+      "vip_tier": "3",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "Worst drop: 11.11%"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 8,
+          "previous": 9,
+          "yesterday": 5,
+          "two_days_ago": 4,
+          "change": {
+            "vs_previous": {
+              "percent": -11.11,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 60,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "Worst drop: 11.11%"
+          }
+        },
+        "unique_users": {
+          "current": 8,
+          "previous": 9,
+          "yesterday": 5,
+          "two_days_ago": 4,
+          "change": {
+            "vs_previous": {
+              "percent": -11.11,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 60,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "Worst drop: 11.11%"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "3",
+      "vip_tier": "8",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 2,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_yesterday": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_yesterday": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "6",
+      "vip_tier": "7",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 2,
+          "previous": 0,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 0,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "7",
+      "vip_tier": "2",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 2,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "8",
+      "vip_tier": "2",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 2,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "9",
+      "vip_tier": "2",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 2,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "10",
+      "vip_tier": "2",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 2,
+          "previous": 0,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 0,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "4",
+      "vip_tier": "6",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "5",
+      "vip_tier": "6",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "5",
+      "vip_tier": "8",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "6",
+      "vip_tier": "6",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "7",
+      "vip_tier": "4",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "8",
+      "vip_tier": "3",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "8",
+      "vip_tier": "4",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 1,
+          "previous": 0,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 0,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "9",
+      "vip_tier": "3",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "quest_index": "10",
+      "vip_tier": "3",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed_quests": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    }
+  ]
+}

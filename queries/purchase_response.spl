@@ -1,0 +1,29 @@
+index="sweeps"
+"Payload.ClientPayload.action"="purchase_response"
+
+| spath path=Payload.ClientPayload.client_type output=client_type
+| spath path=Payload.ClientPayload.payment_type output=payment_type
+| spath path=Payload.ClientPayload.status output=status
+| spath path=Payload.ClientPayload.price output=price
+| spath path=Payload.PartnerPlayerId output=player_id
+
+| eval status=upper(status)
+| eval price=tonumber(price)
+| eval payment_type=coalesce(payment_type, "unknown")
+| eval client_type=coalesce(client_type, "unknown")
+
+| stats
+    count as total_responses
+    count(eval(status="COMPLETED")) as completed
+    count(eval(status="FAILED")) as failed
+    count(eval(status="CANCEL")) as cancelled
+    dc(eval(if(status="COMPLETED", player_id, null()))) as purchasing_users
+    sum(eval(if(status="COMPLETED", price, 0))) as purchase_amount
+    avg(eval(if(status="COMPLETED", price, null()))) as avg_purchase_amount
+by client_type payment_type
+
+| eval completed_rate=round(completed*100/total_responses, 2)."%"
+| eval failed_rate=round(failed*100/total_responses, 2)."%"
+| eval cancelled_rate=round(cancelled*100/total_responses, 2)."%"
+
+| sort client_type payment_type

@@ -1,0 +1,2133 @@
+{
+  "metadata": {
+    "monitor": "spin_event",
+    "slug": "spin",
+    "displayName": "Spin Event",
+    "generatedAtUtc": "2026-09-22T02:51:52.913Z",
+    "dimensions": [
+      "provider",
+      "client_type",
+      "spin_type",
+      "unit_name"
+    ],
+    "metrics": [
+      "total_spins",
+      "unique_users"
+    ],
+    "primaryMetric": "total_spins",
+    "thresholds": {
+      "attention": "20% to below 40% drop",
+      "warning": "40% to 60% drop",
+      "critical": "Above 60% drop or current = 0"
+    }
+  },
+  "summary": {
+    "total_rows": 35,
+    "critical": 16,
+    "warning": 2,
+    "attention": 5,
+    "normal": 12
+  },
+  "comparisons": [
+    {
+      "provider": "ruby_play",
+      "client_type": "app",
+      "spin_type": "regular",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 78.96%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 1081,
+          "previous": 432,
+          "yesterday": 5139,
+          "two_days_ago": 971,
+          "change": {
+            "vs_previous": {
+              "percent": 150.23,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -78.96,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 11.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 78.96%"
+          }
+        },
+        "unique_users": {
+          "current": 16,
+          "previous": 7,
+          "yesterday": 23,
+          "two_days_ago": 15,
+          "change": {
+            "vs_previous": {
+              "percent": 128.57,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -30.43,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 6.67,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 30.43%"
+          }
+        }
+      }
+    },
+    {
+      "provider": "booming_games",
+      "client_type": "app",
+      "spin_type": "regular",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 73.98%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 896,
+          "previous": 714,
+          "yesterday": 1493,
+          "two_days_ago": 3444,
+          "change": {
+            "vs_previous": {
+              "percent": 25.49,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -39.99,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -73.98,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 73.98%"
+          }
+        },
+        "unique_users": {
+          "current": 20,
+          "previous": 17,
+          "yesterday": 28,
+          "two_days_ago": 24,
+          "change": {
+            "vs_previous": {
+              "percent": 17.65,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -28.57,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -16.67,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 28.57%"
+          }
+        }
+      }
+    },
+    {
+      "provider": "ps",
+      "client_type": "web",
+      "spin_type": "regular",
+      "unit_name": "gold",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 71.27%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 734,
+          "previous": 152,
+          "yesterday": 498,
+          "two_days_ago": 2555,
+          "change": {
+            "vs_previous": {
+              "percent": 382.89,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 47.39,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -71.27,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 71.27%"
+          }
+        },
+        "unique_users": {
+          "current": 14,
+          "previous": 4,
+          "yesterday": 15,
+          "two_days_ago": 15,
+          "change": {
+            "vs_previous": {
+              "percent": 250,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -6.67,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -6.67,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "Worst drop: 6.67%"
+          }
+        }
+      }
+    },
+    {
+      "provider": "rgs",
+      "client_type": "app",
+      "spin_type": "buy_bonus",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 60.29%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 27,
+          "previous": 13,
+          "yesterday": 68,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 107.69,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -60.29,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 60.29%"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 2,
+          "yesterday": 2,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "provider": "booming_games",
+      "client_type": "web",
+      "spin_type": "free_spin",
+      "unit_name": "gold",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 73.58%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 14,
+          "previous": 53,
+          "yesterday": 0,
+          "two_days_ago": 46,
+          "change": {
+            "vs_previous": {
+              "percent": -73.58,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": -69.57,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 73.58%"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 3,
+          "yesterday": 0,
+          "two_days_ago": 2,
+          "change": {
+            "vs_previous": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 66.67%"
+          }
+        }
+      }
+    },
+    {
+      "provider": "ps",
+      "client_type": "web",
+      "spin_type": "free_spin",
+      "unit_name": "gold",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 79.41%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 7,
+          "previous": 2,
+          "yesterday": 4,
+          "two_days_ago": 34,
+          "change": {
+            "vs_previous": {
+              "percent": 250,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 75,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -79.41,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 79.41%"
+          }
+        },
+        "unique_users": {
+          "current": 7,
+          "previous": 1,
+          "yesterday": 3,
+          "two_days_ago": 4,
+          "change": {
+            "vs_previous": {
+              "percent": 600,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 133.33,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 75,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "provider": "ruby_play",
+      "client_type": "app",
+      "spin_type": "buy_bonus",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 69.57%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 7,
+          "previous": 14,
+          "yesterday": 23,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -69.57,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 69.57%"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "provider": "booming_games",
+      "client_type": "app",
+      "spin_type": "regular",
+      "unit_name": "gold",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 94.51%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 5,
+          "previous": 24,
+          "yesterday": 91,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -79.17,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -94.51,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 94.51%"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 4,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -75,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 75%"
+          }
+        }
+      }
+    },
+    {
+      "provider": "ps",
+      "client_type": "app",
+      "spin_type": "free_spin",
+      "unit_name": "gold",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 83.33%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 1,
+          "previous": 6,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -83.33,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 83.33%"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "provider": "ps",
+      "client_type": "app",
+      "spin_type": "buy_bonus",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 66.67%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 1,
+          "previous": 0,
+          "yesterday": 3,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_yesterday": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 66.67%"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "provider": "booming_games",
+      "client_type": "app",
+      "spin_type": "free_spin",
+      "unit_name": "gold",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 0,
+          "previous": 15,
+          "yesterday": 17,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 1,
+          "yesterday": 3,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "provider": "evolution",
+      "client_type": "web",
+      "spin_type": "regular",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 0,
+          "previous": 14,
+          "yesterday": 0,
+          "two_days_ago": 7,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "provider": "ps",
+      "client_type": "web",
+      "spin_type": "buy_bonus",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 0,
+          "previous": 7,
+          "yesterday": 0,
+          "two_days_ago": 2,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "provider": "ps",
+      "client_type": "web",
+      "spin_type": "buy_bonus",
+      "unit_name": "gold",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 2,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "provider": "rgs",
+      "client_type": "app",
+      "spin_type": "buy_bonus",
+      "unit_name": "gold",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "provider": "ruby_play",
+      "client_type": "app",
+      "spin_type": "regular",
+      "unit_name": "gold",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 31,
+          "two_days_ago": 171,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "provider": "ruby_play",
+      "client_type": "web",
+      "spin_type": "regular",
+      "unit_name": "gold",
+      "overall_severity": {
+        "level": "WARNING",
+        "reason": "Worst drop: 60%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 200,
+          "previous": 224,
+          "yesterday": 227,
+          "two_days_ago": 111,
+          "change": {
+            "vs_previous": {
+              "percent": -10.71,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -11.89,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 80.18,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "Worst drop: 11.89%"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 5,
+          "yesterday": 4,
+          "two_days_ago": 3,
+          "change": {
+            "vs_previous": {
+              "percent": -60,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 60%"
+          }
+        }
+      }
+    },
+    {
+      "provider": "rgs",
+      "client_type": "web",
+      "spin_type": "buy_bonus",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "WARNING",
+        "reason": "Worst drop: 48.39%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 16,
+          "previous": 31,
+          "yesterday": 7,
+          "two_days_ago": 14,
+          "change": {
+            "vs_previous": {
+              "percent": -48.39,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 128.57,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 14.29,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 48.39%"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 5,
+          "yesterday": 3,
+          "two_days_ago": 3,
+          "change": {
+            "vs_previous": {
+              "percent": -60,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 60%"
+          }
+        }
+      }
+    },
+    {
+      "provider": "ps",
+      "client_type": "web",
+      "spin_type": "regular",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "ATTENTION",
+        "reason": "Worst drop: 36.71%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 6357,
+          "previous": 7122,
+          "yesterday": 10044,
+          "two_days_ago": 6230,
+          "change": {
+            "vs_previous": {
+              "percent": -10.74,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -36.71,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 2.04,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 36.71%"
+          }
+        },
+        "unique_users": {
+          "current": 174,
+          "previous": 138,
+          "yesterday": 179,
+          "two_days_ago": 188,
+          "change": {
+            "vs_previous": {
+              "percent": 26.09,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -2.79,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -7.45,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "Worst drop: 7.45%"
+          }
+        }
+      }
+    },
+    {
+      "provider": "rgs",
+      "client_type": "web",
+      "spin_type": "regular",
+      "unit_name": "gold",
+      "overall_severity": {
+        "level": "ATTENTION",
+        "reason": "Worst drop: 20%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 996,
+          "previous": 753,
+          "yesterday": 351,
+          "two_days_ago": 241,
+          "change": {
+            "vs_previous": {
+              "percent": 32.27,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 183.76,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 313.28,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 8,
+          "previous": 5,
+          "yesterday": 10,
+          "two_days_ago": 7,
+          "change": {
+            "vs_previous": {
+              "percent": 60,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -20,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 14.29,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 20%"
+          }
+        }
+      }
+    },
+    {
+      "provider": "booming_games",
+      "client_type": "web",
+      "spin_type": "regular",
+      "unit_name": "gold",
+      "overall_severity": {
+        "level": "ATTENTION",
+        "reason": "Worst drop: 20.97%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 294,
+          "previous": 214,
+          "yesterday": 168,
+          "two_days_ago": 372,
+          "change": {
+            "vs_previous": {
+              "percent": 37.38,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 75,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -20.97,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 20.97%"
+          }
+        },
+        "unique_users": {
+          "current": 4,
+          "previous": 4,
+          "yesterday": 3,
+          "two_days_ago": 2,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 33.33,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "provider": "ps",
+      "client_type": "web",
+      "spin_type": "free_spin",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "ATTENTION",
+        "reason": "Worst drop: 32.61%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 106,
+          "previous": 115,
+          "yesterday": 111,
+          "two_days_ago": 94,
+          "change": {
+            "vs_previous": {
+              "percent": -7.83,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -4.5,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 12.77,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "Worst drop: 7.83%"
+          }
+        },
+        "unique_users": {
+          "current": 31,
+          "previous": 36,
+          "yesterday": 46,
+          "two_days_ago": 39,
+          "change": {
+            "vs_previous": {
+              "percent": -13.89,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -32.61,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -20.51,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 32.61%"
+          }
+        }
+      }
+    },
+    {
+      "provider": "ruby_play",
+      "client_type": "web",
+      "spin_type": "buy_bonus",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "ATTENTION",
+        "reason": "Worst drop: 33.33%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 6,
+          "previous": 9,
+          "yesterday": 8,
+          "two_days_ago": 9,
+          "change": {
+            "vs_previous": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -25,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 33.33%"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 3,
+          "yesterday": 1,
+          "two_days_ago": 2,
+          "change": {
+            "vs_previous": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 33.33%"
+          }
+        }
+      }
+    },
+    {
+      "provider": "booming_games",
+      "client_type": "web",
+      "spin_type": "regular",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 5983,
+          "previous": 5588,
+          "yesterday": 4572,
+          "two_days_ago": 4342,
+          "change": {
+            "vs_previous": {
+              "percent": 7.07,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 30.86,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 37.79,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 73,
+          "previous": 82,
+          "yesterday": 73,
+          "two_days_ago": 64,
+          "change": {
+            "vs_previous": {
+              "percent": -10.98,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 14.06,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "Worst drop: 10.98%"
+          }
+        }
+      }
+    },
+    {
+      "provider": "rgs",
+      "client_type": "web",
+      "spin_type": "regular",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "Worst drop: 2.85%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 5594,
+          "previous": 5758,
+          "yesterday": 3811,
+          "two_days_ago": 2849,
+          "change": {
+            "vs_previous": {
+              "percent": -2.85,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 46.79,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 96.35,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "Worst drop: 2.85%"
+          }
+        },
+        "unique_users": {
+          "current": 98,
+          "previous": 89,
+          "yesterday": 80,
+          "two_days_ago": 95,
+          "change": {
+            "vs_previous": {
+              "percent": 10.11,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 22.5,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 3.16,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "provider": "ruby_play",
+      "client_type": "web",
+      "spin_type": "regular",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 4610,
+          "previous": 2483,
+          "yesterday": 3739,
+          "two_days_ago": 3544,
+          "change": {
+            "vs_previous": {
+              "percent": 85.66,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 23.29,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 30.08,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 47,
+          "previous": 39,
+          "yesterday": 48,
+          "two_days_ago": 45,
+          "change": {
+            "vs_previous": {
+              "percent": 20.51,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -2.08,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 4.44,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "Worst drop: 2.08%"
+          }
+        }
+      }
+    },
+    {
+      "provider": "ps",
+      "client_type": "app",
+      "spin_type": "regular",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 4073,
+          "previous": 2351,
+          "yesterday": 2869,
+          "two_days_ago": 3206,
+          "change": {
+            "vs_previous": {
+              "percent": 73.25,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 41.97,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 27.04,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 63,
+          "previous": 55,
+          "yesterday": 55,
+          "two_days_ago": 46,
+          "change": {
+            "vs_previous": {
+              "percent": 14.55,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 14.55,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 36.96,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "provider": "rgs",
+      "client_type": "app",
+      "spin_type": "regular",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 2163,
+          "previous": 1518,
+          "yesterday": 1762,
+          "two_days_ago": 1679,
+          "change": {
+            "vs_previous": {
+              "percent": 42.49,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 22.76,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 28.83,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 31,
+          "previous": 31,
+          "yesterday": 31,
+          "two_days_ago": 29,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 6.9,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "provider": "booming_games",
+      "client_type": "web",
+      "spin_type": "free_spin",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "Worst drop: 8.42%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 674,
+          "previous": 736,
+          "yesterday": 358,
+          "two_days_ago": 513,
+          "change": {
+            "vs_previous": {
+              "percent": -8.42,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 88.27,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 31.38,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "Worst drop: 8.42%"
+          }
+        },
+        "unique_users": {
+          "current": 16,
+          "previous": 17,
+          "yesterday": 13,
+          "two_days_ago": 16,
+          "change": {
+            "vs_previous": {
+              "percent": -5.88,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 23.08,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "Worst drop: 5.88%"
+          }
+        }
+      }
+    },
+    {
+      "provider": "rgs",
+      "client_type": "app",
+      "spin_type": "regular",
+      "unit_name": "gold",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 334,
+          "previous": 9,
+          "yesterday": 128,
+          "two_days_ago": 21,
+          "change": {
+            "vs_previous": {
+              "percent": 3611.11,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 160.94,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 1490.48,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 3,
+          "previous": 1,
+          "yesterday": 3,
+          "two_days_ago": 2,
+          "change": {
+            "vs_previous": {
+              "percent": 200,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 50,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "provider": "booming_games",
+      "client_type": "app",
+      "spin_type": "free_spin",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "Worst drop: 8.84%"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 330,
+          "previous": 263,
+          "yesterday": 343,
+          "two_days_ago": 362,
+          "change": {
+            "vs_previous": {
+              "percent": 25.48,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -3.79,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -8.84,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "Worst drop: 8.84%"
+          }
+        },
+        "unique_users": {
+          "current": 6,
+          "previous": 4,
+          "yesterday": 5,
+          "two_days_ago": 7,
+          "change": {
+            "vs_previous": {
+              "percent": 50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 20,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -14.29,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "Worst drop: 14.29%"
+          }
+        }
+      }
+    },
+    {
+      "provider": "ps",
+      "client_type": "app",
+      "spin_type": "regular",
+      "unit_name": "gold",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 141,
+          "previous": 100,
+          "yesterday": 78,
+          "two_days_ago": 79,
+          "change": {
+            "vs_previous": {
+              "percent": 41,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 80.77,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 78.48,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 4,
+          "previous": 1,
+          "yesterday": 4,
+          "two_days_ago": 2,
+          "change": {
+            "vs_previous": {
+              "percent": 300,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "provider": "ps",
+      "client_type": "app",
+      "spin_type": "free_spin",
+      "unit_name": "sweep",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 55,
+          "previous": 28,
+          "yesterday": 53,
+          "two_days_ago": 43,
+          "change": {
+            "vs_previous": {
+              "percent": 96.43,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 3.77,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 27.91,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 13,
+          "previous": 12,
+          "yesterday": 11,
+          "two_days_ago": 16,
+          "change": {
+            "vs_previous": {
+              "percent": 8.33,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 18.18,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -18.75,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "Worst drop: 18.75%"
+          }
+        }
+      }
+    },
+    {
+      "provider": "rgs",
+      "client_type": "web",
+      "spin_type": "buy_bonus",
+      "unit_name": "gold",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 4,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 300,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "provider": "ruby_play",
+      "client_type": "app",
+      "spin_type": "buy_bonus",
+      "unit_name": "gold",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "total_spins": {
+          "current": 1,
+          "previous": 0,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 0,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    }
+  ]
+}

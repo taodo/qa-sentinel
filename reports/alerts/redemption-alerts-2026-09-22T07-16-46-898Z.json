@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "monitor": "redemption",
+    "generatedAtUtc": "2026-09-22T07:16:46.897Z",
+    "sourceComparison": "reports/comparison/redemption-comparison-latest.json",
+    "config": {
+      "name": "redemption",
+      "slug": "redemption",
+      "displayName": "Redemption",
+      "enabled": true,
+      "dimensions": [
+        "action",
+        "client_type",
+        "status"
+      ],
+      "metrics": [
+        "total_events",
+        "unique_users"
+      ],
+      "primaryMetric": "total_events",
+      "metricLabels": {
+        "total_events": "Redemption Events",
+        "unique_users": "Unique Users"
+      },
+      "comparisonThresholds": {
+        "attention": 20,
+        "warning": 40,
+        "critical": 60
+      },
+      "collectorEnabled": true,
+      "compareEnabled": true,
+      "alertEnabled": true,
+      "reportEnabled": false,
+      "notificationChannel": "SLACK_WEBHOOK_REDEMPTIONS",
+      "debugChannelIdEnvKey": "SLACK_CHANNEL_REDEMPTIONS"
+    }
+  },
+  "summary": {
+    "total_comparisons": 13,
+    "total_alerts": 1,
+    "critical": 1,
+    "warning": 0,
+    "attention": 0,
+    "ignored": 10
+  },
+  "alerts": [
+    {
+      "severity": "CRITICAL",
+      "title": "Redemption Attempt · Web · Unknown",
+      "dimensions": {
+        "action": "redemption_attempt",
+        "client_type": "web",
+        "status": "unknown"
+      },
+      "primary_metric": "total_events",
+      "reason": "Redemption Events dropped 61.9% compared with same 2 hours yesterday",
+      "recommendation": "Review Redemption traffic in Splunk and check related errors.",
+      "metrics": {
+        "total_events": {
+          "name": "total_events",
+          "label": "Redemption Events",
+          "current": 8,
+          "previous": 1,
+          "yesterday": 21,
+          "two_days_ago": 17,
+          "worst_drop_percent": 61.9,
+          "worst_drop_window": "yesterday",
+          "worst_drop_label": "same 2 hours yesterday"
+        },
+        "unique_users": {
+          "name": "unique_users",
+          "label": "Unique Users",
+          "current": 5,
+          "previous": 1,
+          "yesterday": 9,
+          "two_days_ago": 9,
+          "worst_drop_percent": 44.44,
+          "worst_drop_window": "yesterday",
+          "worst_drop_label": "same 2 hours yesterday"
+        }
+      },
+      "worst_drop_percent": 61.9,
+      "worst_drop_metric": "total_events"
+    }
+  ],
+  "ignored": [
+    {
+      "dimensions": {
+        "action": "redemption_response",
+        "client_type": "web",
+        "status": "approved"
+      },
+      "title": "Redemption Response · Web · Approved",
+      "reason": "Unique Users current volume is too low: 3"
+    },
+    {
+      "dimensions": {
+        "action": "redemption_response",
+        "client_type": "web",
+        "status": "pending"
+      },
+      "title": "Redemption Response · Web · Pending",
+      "reason": "Unique Users current volume is too low: 3"
+    },
+    {
+      "dimensions": {
+        "action": "redemption_response",
+        "client_type": "app",
+        "status": "approved"
+      },
+      "title": "Redemption Response · App · Approved",
+      "reason": "Unique Users current volume is too low: 1"
+    },
+    {
+      "dimensions": {
+        "action": "redemption_response",
+        "client_type": "app",
+        "status": "manual_review"
+      },
+      "title": "Redemption Response · App · Manual Review",
+      "reason": "Unique Users current volume is too low: 1"
+    },
+    {
+      "dimensions": {
+        "action": "redemption_response",
+        "client_type": "app",
+        "status": "pending"
+      },
+      "title": "Redemption Response · App · Pending",
+      "reason": "Unique Users current volume is too low: 1"
+    },
+    {
+      "dimensions": {
+        "action": "redemption_response",
+        "client_type": "app",
+        "status": "cancel"
+      },
+      "title": "Redemption Response · App · Cancel",
+      "reason": "Unique Users current volume is too low: 1"
+    },
+    {
+      "dimensions": {
+        "action": "redemption_response",
+        "client_type": "web",
+        "status": "cancel"
+      },
+      "title": "Redemption Response · Web · Cancel",
+      "reason": "Unique Users current volume is too low: 3"
+    },
+    {
+      "dimensions": {
+        "action": "redemption_attempt",
+        "client_type": "app",
+        "status": "unknown"
+      },
+      "title": "Redemption Attempt · App · Unknown",
+      "reason": "Unique Users current volume is too low: 2"
+    },
+    {
+      "dimensions": {
+        "action": "redemption_response",
+        "client_type": "web",
+        "status": "manual_review"
+      },
+      "title": "Redemption Response · Web · Manual Review",
+      "reason": "Unique Users current volume is too low: 3"
+    },
+    {
+      "dimensions": {
+        "action": "redemption_response",
+        "client_type": "web",
+        "status": "completed"
+      },
+      "title": "Redemption Response · Web · Completed",
+      "reason": "Unique Users current volume is too low: 1"
+    }
+  ]
+}

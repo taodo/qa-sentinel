@@ -1,0 +1,585 @@
+{
+  "version": 1,
+  "source": "Splunk field - Sheet1.pdf",
+  "fields": [
+    {
+      "field": "Payload.ClientPayload.action",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.bet_value",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.client_version_number",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.game_provider_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientIpAddress",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.apple_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.bet_amount",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.bet_max_index",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.bi_source",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.browser_name",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.browser_version",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.button_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.client_build_number",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.client_ip",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.client_type",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.closed",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.collect_amount",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.color_depth",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.configuration_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.connection_type",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.country",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.current_gold_balance",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.current_lp_balance",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.current_redeemable_sweeps_balance",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.current_sweep_balance",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.developer_device_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.device_model",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.device_type",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.email",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.email_verified",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.facebook_user_id",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.flow",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.game_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.game_name",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.game_session_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.game_user_id",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.game_zone",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.gameplay_session_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.geo_source",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.guest_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.guest_mode",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.has_fb_token_for_business",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.identifier",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.index",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.internet_connection",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.ip_address",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.is_favorite",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.is_touch_device",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.kinoa_group",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.kinoa_group.quests.mission_config.Quests V2 - AB",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.kinoa_group.quests.modifiers.Quests V2 - AB",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.kinoa_group.quests.myvip_bonuses.Quests V2 - AB",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.kinoa_group.quests.quest_config.Quests V2 - AB",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.kinoa_group.quests.quest_manifest.Quests V2 - AB",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.last_active_timestamp",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.link_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.load_time_ms",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.ltd_iap_purchases",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.ltd_iap_revenue_usd",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.max_bet",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.minimum_bet_modifier",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.mission_difficulty_modifier",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.mission_difficulty_multiplier",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.mission_difficulty_weight",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.mission_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.mission_reward_addend",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.mission_reward_modifier",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.mission_reward_weight",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.mobile_advertiser_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.modal_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.myvip_tier_id",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.number_free_spin",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.os_platform",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.os_version",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.page_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.page_source",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.page_url",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.party_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.pending_gold_coin_wager",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.pending_sweep_coin_wager",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.phone_verified",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.platform_advertiser_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.player_mission_difficulty_modifer",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.player_mission_reward_modifer",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.playlink_session_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.preferred_languages",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.prize.gold",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.prize.sweep",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.provider",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.quest_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.quest_manifest_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.referrer_url",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.registration_timestamp",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.screen_resolution",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.segment",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.segments_personalized",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.segments_personalized.daily_bonus.DailyBonusEconomyConfig{}",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.segments_personalized.daily_bonus.WinStreakMeterEconomyConfig{}",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.segments{}",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.source",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.source_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.source_name",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.spend_amount",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.spin_duration_ms",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.spin_event_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.spin_type",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.state",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.status",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.support_code",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.tab_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.time_stamp",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.trigger_id",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.type",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.unit_name",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.urid",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.value",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.verification_status",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.version",
+      "type": "String"
+    },
+    {
+      "field": "Payload.ClientPayload.win_amount",
+      "type": "Number"
+    },
+    {
+      "field": "Payload.ClientPayload.win_type",
+      "type": "String"
+    },
+    {
+      "field": "Payload.PartnerApplicationId",
+      "type": "String"
+    },
+    {
+      "field": "Payload.PartnerPlayerId",
+      "type": "Number"
+    },
+    {
+      "field": "date_hour",
+      "type": "Number"
+    },
+    {
+      "field": "date_mday",
+      "type": "Number"
+    },
+    {
+      "field": "date_minute",
+      "type": "Number"
+    },
+    {
+      "field": "date_month",
+      "type": "String"
+    },
+    {
+      "field": "date_second",
+      "type": "Number"
+    },
+    {
+      "field": "date_wday",
+      "type": "String"
+    },
+    {
+      "field": "date_year",
+      "type": "Number"
+    },
+    {
+      "field": "date_zone",
+      "type": "Number"
+    },
+    {
+      "field": "env",
+      "type": "String"
+    },
+    {
+      "field": "host",
+      "type": "String"
+    },
+    {
+      "field": "index",
+      "type": "String"
+    },
+    {
+      "field": "linecount",
+      "type": "Number"
+    },
+    {
+      "field": "punct",
+      "type": "String"
+    },
+    {
+      "field": "source",
+      "type": "String"
+    },
+    {
+      "field": "sourcetype",
+      "type": "String"
+    },
+    {
+      "field": "splunk_server",
+      "type": "String"
+    },
+    {
+      "field": "timeendpos",
+      "type": "Number"
+    },
+    {
+      "field": "timestartpos",
+      "type": "Number"
+    }
+  ],
+  "action_values": {
+    "Payload.ClientPayload.action": [
+      "update_balance",
+      "spin_event",
+      "third_party_load_attempt",
+      "third_party_load_response",
+      "modal_open_success",
+      "modal_interact",
+      "quest_end",
+      "page_open_attempt",
+      "page_open_success",
+      "ava_manifest_load_response"
+    ]
+  },
+  "notes": [
+    "Field inventory is authoritative for field names/types only.",
+    "Action profiles are semantic hints, not whitelists.",
+    "Business value mappings must be added only when confirmed."
+  ]
+}

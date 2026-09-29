@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "monitor": "signup",
+    "generatedAtUtc": "2026-09-22T07:15:20.430Z",
+    "sourceComparison": "reports/comparison/signup-comparison-latest.json",
+    "config": {
+      "name": "signup",
+      "slug": "signup",
+      "displayName": "Signup",
+      "enabled": true,
+      "dimensions": [
+        "client_type"
+      ],
+      "metrics": [
+        "total_signups",
+        "unique_users"
+      ],
+      "primaryMetric": "unique_users",
+      "metricLabels": {
+        "total_signups": "Signup Events",
+        "unique_users": "Unique Signup Users"
+      },
+      "comparisonThresholds": {
+        "attention": 20,
+        "warning": 40,
+        "critical": 60
+      },
+      "collectorEnabled": true,
+      "compareEnabled": true,
+      "alertEnabled": true,
+      "reportEnabled": false,
+      "notificationChannel": "SLACK_WEBHOOK_SIGNUPS",
+      "debugChannelIdEnvKey": "SLACK_CHANNEL_SIGNUPS"
+    }
+  },
+  "summary": {
+    "total_comparisons": 2,
+    "total_alerts": 2,
+    "critical": 0,
+    "warning": 1,
+    "attention": 1,
+    "ignored": 0
+  },
+  "alerts": [
+    {
+      "severity": "WARNING",
+      "title": "Web",
+      "dimensions": {
+        "client_type": "web"
+      },
+      "primary_metric": "unique_users",
+      "reason": "Unique Signup Users dropped 55.17% compared with same 2 hours two days ago",
+      "recommendation": "Review Signup traffic in Splunk and check related errors.",
+      "metrics": {
+        "total_signups": {
+          "name": "total_signups",
+          "label": "Signup Events",
+          "current": 13,
+          "previous": 12,
+          "yesterday": 27,
+          "two_days_ago": 29,
+          "worst_drop_percent": 55.17,
+          "worst_drop_window": "two_days_ago",
+          "worst_drop_label": "same 2 hours two days ago"
+        },
+        "unique_users": {
+          "name": "unique_users",
+          "label": "Unique Signup Users",
+          "current": 13,
+          "previous": 12,
+          "yesterday": 27,
+          "two_days_ago": 29,
+          "worst_drop_percent": 55.17,
+          "worst_drop_window": "two_days_ago",
+          "worst_drop_label": "same 2 hours two days ago"
+        }
+      },
+      "worst_drop_percent": 55.17,
+      "worst_drop_metric": "total_signups"
+    },
+    {
+      "severity": "ATTENTION",
+      "title": "App",
+      "dimensions": {
+        "client_type": "app"
+      },
+      "primary_metric": "unique_users",
+      "reason": "Unique Signup Users dropped 25% compared with previous 2 hours",
+      "recommendation": "Review Signup traffic in Splunk and check related errors.",
+      "metrics": {
+        "total_signups": {
+          "name": "total_signups",
+          "label": "Signup Events",
+          "current": 12,
+          "previous": 16,
+          "yesterday": 7,
+          "two_days_ago": 13,
+          "worst_drop_percent": 25,
+          "worst_drop_window": "previous",
+          "worst_drop_label": "previous 2 hours"
+        },
+        "unique_users": {
+          "name": "unique_users",
+          "label": "Unique Signup Users",
+          "current": 12,
+          "previous": 16,
+          "yesterday": 7,
+          "two_days_ago": 13,
+          "worst_drop_percent": 25,
+          "worst_drop_window": "previous",
+          "worst_drop_label": "previous 2 hours"
+        }
+      },
+      "worst_drop_percent": 25,
+      "worst_drop_metric": "total_signups"
+    }
+  ],
+  "ignored": []
+}

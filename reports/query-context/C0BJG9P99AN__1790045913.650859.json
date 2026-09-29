@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "scope": {},
+  "subject": {
+    "player_id": 1097465
+  },
+  "queryScope": {
+    "client_type": null,
+    "device_type": null,
+    "game_id": null,
+    "game_name": null,
+    "provider": null,
+    "unit_name": null
+  },
+  "action": "spin",
+  "lastQuery": {
+    "requested_fields": [],
+    "filters": []
+  },
+  "timeRange": {
+    "type": "relative",
+    "amount": 4,
+    "unit": "hours",
+    "value": null
+  },
+  "updatedAt": "2026-09-22T02:58:36.632Z"
+}

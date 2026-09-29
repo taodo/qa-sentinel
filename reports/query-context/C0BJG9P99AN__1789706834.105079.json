@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "scope": {},
+  "subject": {
+    "player_id": 1187248
+  },
+  "queryScope": {
+    "client_type": null,
+    "device_type": null,
+    "game_id": null,
+    "game_name": null,
+    "provider": null,
+    "unit_name": null
+  },
+  "action": "spin",
+  "lastQuery": {
+    "requested_fields": [
+      "Payload.ClientPayload.win_amount"
+    ],
+    "filters": [
+      {
+        "field": "Payload.ClientPayload.game_user_id",
+        "operator": "eq",
+        "value": "1187248"
+      },
+      {
+        "field": "Payload.ClientPayload.action",
+        "operator": "eq",
+        "value": "spin"
+      }
+    ]
+  },
+  "timeRange": {
+    "type": "relative",
+    "amount": 10,
+    "unit": "days",
+    "value": null
+  },
+  "updatedAt": "2026-09-18T07:48:30.788Z"
+}

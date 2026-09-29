@@ -1,0 +1,231 @@
+{
+  "defaults": {
+    "collectorScript": "run-multi-window.js",
+    "compareScript": "compare-generic.js",
+    "alertScript": "smart-alert.js",
+    "reportScript": "report-client-error.js"
+  },
+  "monitors": [
+    {
+      "name": "spin_event",
+      "slug": "spin",
+      "displayName": "Spin Event",
+      "enabled": true,
+      "dimensions": [
+        "provider",
+        "client_type",
+        "spin_type",
+        "unit_name"
+      ],
+      "metrics": [
+        "total_spins",
+        "unique_users"
+      ],
+      "primaryMetric": "total_spins",
+      "metricLabels": {
+        "total_spins": "Spins",
+        "unique_users": "Users"
+      },
+      "comparisonThresholds": {
+        "attention": 20,
+        "warning": 40,
+        "critical": 60
+      },
+      "collectorEnabled": true,
+      "compareEnabled": true,
+      "alertEnabled": true,
+      "reportEnabled": false,
+      "notificationChannel": "SLACK_WEBHOOK_SPINS",
+      "debugChannelIdEnvKey": "SLACK_CHANNEL_SPINS"
+    },
+    {
+      "name": "purchase_response",
+      "slug": "purchase",
+      "displayName": "Purchase Response",
+      "enabled": true,
+      "dimensions": [
+        "client_type",
+        "payment_type"
+      ],
+      "metrics": [
+        "completed",
+        "purchasing_users"
+      ],
+      "primaryMetric": "completed",
+      "metricLabels": {
+        "completed": "Completed Purchases",
+        "purchasing_users": "Purchasing Users"
+      },
+      "comparisonThresholds": {
+        "attention": 20,
+        "warning": 40,
+        "critical": 60
+      },
+      "collectorEnabled": true,
+      "compareEnabled": true,
+      "alertEnabled": true,
+      "reportEnabled": false,
+      "notificationChannel": "SLACK_WEBHOOK_PURCHASES",
+      "debugChannelIdEnvKey": "SLACK_CHANNEL_PURCHASES"
+    },
+    {
+      "name": "login",
+      "slug": "login",
+      "displayName": "Login",
+      "enabled": true,
+      "dimensions": [
+        "client_type"
+      ],
+      "metrics": [
+        "total_logins",
+        "unique_users"
+      ],
+      "primaryMetric": "unique_users",
+      "metricLabels": {
+        "total_logins": "Login Events",
+        "unique_users": "Unique Login Users"
+      },
+      "comparisonThresholds": {
+        "attention": 20,
+        "warning": 40,
+        "critical": 60
+      },
+      "collectorEnabled": true,
+      "compareEnabled": true,
+      "alertEnabled": true,
+      "reportEnabled": false,
+       "notificationChannel": "SLACK_WEBHOOK_LOGINS",
+       "debugChannelIdEnvKey": "SLACK_CHANNEL_LOGINS"
+    },
+    {
+      "name": "signup",
+      "slug": "signup",
+      "displayName": "Signup",
+      "enabled": true,
+      "dimensions": [
+        "client_type"
+      ],
+      "metrics": [
+        "total_signups",
+        "unique_users"
+      ],
+      "primaryMetric": "unique_users",
+      "metricLabels": {
+        "total_signups": "Signup Events",
+        "unique_users": "Unique Signup Users"
+      },
+      "comparisonThresholds": {
+        "attention": 20,
+        "warning": 40,
+        "critical": 60
+      },
+      "collectorEnabled": true,
+      "compareEnabled": true,
+      "alertEnabled": true,
+      "reportEnabled": false,
+      "notificationChannel": "SLACK_WEBHOOK_SIGNUPS",
+      "debugChannelIdEnvKey": "SLACK_CHANNEL_SIGNUPS"
+    },
+    {
+      "name": "redemption",
+      "slug": "redemption",
+      "displayName": "Redemption",
+      "enabled": true,
+      "dimensions": [
+        "action",
+        "client_type",
+        "status"
+      ],
+      "metrics": [
+        "total_events",
+        "unique_users"
+      ],
+      "primaryMetric": "total_events",
+      "metricLabels": {
+        "total_events": "Redemption Events",
+        "unique_users": "Unique Users"
+      },
+      "comparisonThresholds": {
+        "attention": 20,
+        "warning": 40,
+        "critical": 60
+      },
+      "collectorEnabled": true,
+      "compareEnabled": true,
+      "alertEnabled": true,
+      "reportEnabled": false,
+      "notificationChannel": "SLACK_WEBHOOK_REDEMPTIONS",
+        "debugChannelIdEnvKey": "SLACK_CHANNEL_REDEMPTIONS"
+
+    },
+    {
+      "name": "client_error",
+      "slug": "client-error",
+      "displayName": "Client Error",
+      "enabled": true,
+      "dimensions": [
+        "client_type",
+        "message"
+      ],
+      "metrics": [
+        "total_errors"
+      ],
+      "primaryMetric": "total_errors",
+      "metricLabels": {
+        "total_errors": "Client Errors"
+      },
+      "collectorEnabled": true,
+      "collectorScript": "run-and-extract.js",
+      "collectorArgs": [
+        "client_error",
+        "current"
+      ],
+      "compareEnabled": false,
+      "alertEnabled": false,
+      "reportEnabled": true,
+      "reportScript": "report-client-error.js",
+      "reportArgs": [
+        "client_error"
+      ],
+      "notificationChannel": "SLACK_WEBHOOK_CLIENT_ERRORS",
+      "debugChannelIdEnvKey": "SLACK_CHANNEL_CLIENT_ERRORS"
+    },
+    {
+  "name": "quest",
+  "slug": "quest",
+  "displayName": "Quest",
+  "enabled": true,
+
+  "dimensions": [
+    "quest_index",
+    "vip_tier"
+  ],
+
+  "metrics": [
+    "completed_quests",
+    "unique_users"
+  ],
+
+  "primaryMetric": "completed_quests",
+
+  "metricLabels": {
+    "completed_quests": "Completed Quests",
+    "unique_users": "Unique Users"
+  },
+
+  "collectorEnabled": true,
+  "compareEnabled": true,
+  "alertEnabled": false,
+  "reportEnabled": true,
+
+  "collectorScript": "run-multi-window.js",
+  "reportScript": "report-quest.js",
+  "reportArgs": [
+    "quest"
+  ],
+
+  "notificationChannel": "SLACK_WEBHOOK_QUEST",
+  "debugChannelIdEnvKey": "SLACK_CHANNEL_QUEST"
+}
+  ]
+}

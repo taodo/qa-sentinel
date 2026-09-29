@@ -1,0 +1,437 @@
+{
+  "metadata": {
+    "monitor": "purchase_response",
+    "slug": "purchase",
+    "displayName": "Purchase Response",
+    "generatedAtUtc": "2026-09-22T02:53:25.128Z",
+    "dimensions": [
+      "client_type",
+      "payment_type"
+    ],
+    "metrics": [
+      "completed",
+      "purchasing_users"
+    ],
+    "primaryMetric": "completed",
+    "thresholds": {
+      "attention": "20% to below 40% drop",
+      "warning": "40% to 60% drop",
+      "critical": "Above 60% drop or current = 0"
+    }
+  },
+  "summary": {
+    "total_rows": 7,
+    "critical": 4,
+    "warning": 0,
+    "attention": 2,
+    "normal": 1
+  },
+  "comparisons": [
+    {
+      "client_type": "web",
+      "payment_type": "apple_pay",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 73.08%"
+      },
+      "metrics": {
+        "completed": {
+          "current": 7,
+          "previous": 26,
+          "yesterday": 8,
+          "two_days_ago": 17,
+          "change": {
+            "vs_previous": {
+              "percent": -73.08,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -12.5,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -58.82,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 73.08%"
+          }
+        },
+        "purchasing_users": {
+          "current": 7,
+          "previous": 14,
+          "yesterday": 7,
+          "two_days_ago": 10,
+          "change": {
+            "vs_previous": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -30,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        }
+      }
+    },
+    {
+      "client_type": "app",
+      "payment_type": "credit_card",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 75%"
+      },
+      "metrics": {
+        "completed": {
+          "current": 3,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 12,
+          "change": {
+            "vs_previous": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_yesterday": {
+              "percent": 200,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -75,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 75%"
+          }
+        },
+        "purchasing_users": {
+          "current": 3,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 5,
+          "change": {
+            "vs_previous": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_yesterday": {
+              "percent": 200,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -40,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 40%"
+          }
+        }
+      }
+    },
+    {
+      "client_type": "web",
+      "payment_type": "skrill",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "purchasing_users": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "client_type": "web",
+      "payment_type": "unknown",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "completed": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "purchasing_users": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "client_type": "web",
+      "payment_type": "credit_card",
+      "overall_severity": {
+        "level": "ATTENTION",
+        "reason": "Worst drop: 33.33%"
+      },
+      "metrics": {
+        "completed": {
+          "current": 54,
+          "previous": 81,
+          "yesterday": 78,
+          "two_days_ago": 45,
+          "change": {
+            "vs_previous": {
+              "percent": -33.33,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -30.77,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 20,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 33.33%"
+          }
+        },
+        "purchasing_users": {
+          "current": 27,
+          "previous": 26,
+          "yesterday": 25,
+          "two_days_ago": 16,
+          "change": {
+            "vs_previous": {
+              "percent": 3.85,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 8,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 68.75,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "client_type": "app",
+      "payment_type": "apple_pay",
+      "overall_severity": {
+        "level": "ATTENTION",
+        "reason": "Worst drop: 36.36%"
+      },
+      "metrics": {
+        "completed": {
+          "current": 28,
+          "previous": 26,
+          "yesterday": 27,
+          "two_days_ago": 44,
+          "change": {
+            "vs_previous": {
+              "percent": 7.69,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 3.7,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -36.36,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 36.36%"
+          }
+        },
+        "purchasing_users": {
+          "current": 12,
+          "previous": 11,
+          "yesterday": 11,
+          "two_days_ago": 12,
+          "change": {
+            "vs_previous": {
+              "percent": 9.09,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 9.09,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "client_type": "web",
+      "payment_type": "pay_by_bank",
+      "overall_severity": {
+        "level": "NORMAL",
+        "reason": "No decrease detected"
+      },
+      "metrics": {
+        "completed": {
+          "current": 1,
+          "previous": 0,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        },
+        "purchasing_users": {
+          "current": 1,
+          "previous": 0,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_yesterday": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    }
+  ]
+}

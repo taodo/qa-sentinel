@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "scope": {},
+  "subject": {
+    "player_id": 1187248
+  },
+  "queryScope": {
+    "client_type": null,
+    "device_type": null,
+    "game_id": null,
+    "game_name": "egyptianpots",
+    "provider": null,
+    "unit_name": "sweep"
+  },
+  "action": "spin_event",
+  "lastQuery": {
+    "requested_fields": [],
+    "filters": [
+      {
+        "field": "Payload.ClientPayload.game_user_id",
+        "operator": "eq",
+        "value": "1187248"
+      },
+      {
+        "field": "Payload.ClientPayload.game_name",
+        "operator": "eq",
+        "value": "egyptianpots"
+      },
+      {
+        "field": "Payload.ClientPayload.unit_name",
+        "operator": "eq",
+        "value": "sweep"
+      }
+    ]
+  },
+  "timeRange": {
+    "type": "relative",
+    "amount": 2,
+    "unit": "days",
+    "value": null
+  },
+  "updatedAt": "2026-09-18T03:50:01.653Z"
+}

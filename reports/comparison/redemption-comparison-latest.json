@@ -1,0 +1,799 @@
+{
+  "metadata": {
+    "monitor": "redemption",
+    "slug": "redemption",
+    "displayName": "Redemption",
+    "generatedAtUtc": "2026-09-22T07:16:46.831Z",
+    "dimensions": [
+      "action",
+      "client_type",
+      "status"
+    ],
+    "metrics": [
+      "total_events",
+      "unique_users"
+    ],
+    "primaryMetric": "total_events",
+    "thresholds": {
+      "attention": "20% to below 40% drop",
+      "warning": "40% to 60% drop",
+      "critical": "Above 60% drop or current = 0"
+    }
+  },
+  "summary": {
+    "total_rows": 13,
+    "critical": 9,
+    "warning": 4,
+    "attention": 0,
+    "normal": 0
+  },
+  "comparisons": [
+    {
+      "action": "redemption_attempt",
+      "client_type": "web",
+      "status": "unknown",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 61.9%"
+      },
+      "metrics": {
+        "total_events": {
+          "current": 8,
+          "previous": 1,
+          "yesterday": 21,
+          "two_days_ago": 17,
+          "change": {
+            "vs_previous": {
+              "percent": 700,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -61.9,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -52.94,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 61.9%"
+          }
+        },
+        "unique_users": {
+          "current": 5,
+          "previous": 1,
+          "yesterday": 9,
+          "two_days_ago": 9,
+          "change": {
+            "vs_previous": {
+              "percent": 400,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -44.44,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -44.44,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 44.44%"
+          }
+        }
+      }
+    },
+    {
+      "action": "redemption_response",
+      "client_type": "web",
+      "status": "approved",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 62.5%"
+      },
+      "metrics": {
+        "total_events": {
+          "current": 3,
+          "previous": 1,
+          "yesterday": 8,
+          "two_days_ago": 4,
+          "change": {
+            "vs_previous": {
+              "percent": 200,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -62.5,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -25,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 62.5%"
+          }
+        },
+        "unique_users": {
+          "current": 3,
+          "previous": 1,
+          "yesterday": 8,
+          "two_days_ago": 4,
+          "change": {
+            "vs_previous": {
+              "percent": 200,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -62.5,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -25,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 62.5%"
+          }
+        }
+      }
+    },
+    {
+      "action": "redemption_response",
+      "client_type": "web",
+      "status": "pending",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 62.5%"
+      },
+      "metrics": {
+        "total_events": {
+          "current": 3,
+          "previous": 1,
+          "yesterday": 8,
+          "two_days_ago": 6,
+          "change": {
+            "vs_previous": {
+              "percent": 200,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -62.5,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 62.5%"
+          }
+        },
+        "unique_users": {
+          "current": 3,
+          "previous": 1,
+          "yesterday": 7,
+          "two_days_ago": 6,
+          "change": {
+            "vs_previous": {
+              "percent": 200,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -57.14,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 57.14%"
+          }
+        }
+      }
+    },
+    {
+      "action": "redemption_response",
+      "client_type": "app",
+      "status": "approved",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 66.67%"
+      },
+      "metrics": {
+        "total_events": {
+          "current": 1,
+          "previous": 3,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 66.67%"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 3,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 66.67%"
+          }
+        }
+      }
+    },
+    {
+      "action": "redemption_response",
+      "client_type": "app",
+      "status": "manual_review",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 66.67%"
+      },
+      "metrics": {
+        "total_events": {
+          "current": 1,
+          "previous": 3,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 66.67%"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 3,
+          "yesterday": 1,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": null,
+              "status": "NEW_TRAFFIC"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 66.67%"
+          }
+        }
+      }
+    },
+    {
+      "action": "redemption_response",
+      "client_type": "app",
+      "status": "pending",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 75%"
+      },
+      "metrics": {
+        "total_events": {
+          "current": 1,
+          "previous": 4,
+          "yesterday": 1,
+          "two_days_ago": 3,
+          "change": {
+            "vs_previous": {
+              "percent": -75,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -66.67,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 75%"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 4,
+          "yesterday": 1,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": -75,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 75%"
+          }
+        }
+      }
+    },
+    {
+      "action": "redemption_response",
+      "client_type": "app",
+      "status": "cancel",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Worst drop: 83.33%"
+      },
+      "metrics": {
+        "total_events": {
+          "current": 1,
+          "previous": 4,
+          "yesterday": 1,
+          "two_days_ago": 6,
+          "change": {
+            "vs_previous": {
+              "percent": -75,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -83.33,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Worst drop: 83.33%"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "NORMAL",
+            "reason": "No decrease detected"
+          }
+        }
+      }
+    },
+    {
+      "action": "redemption_response",
+      "client_type": "web",
+      "status": "failed",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "total_events": {
+          "current": 0,
+          "previous": 2,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 1,
+          "yesterday": 0,
+          "two_days_ago": 0,
+          "change": {
+            "vs_previous": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "NO_DATA"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "action": "redemption_response",
+      "client_type": "app",
+      "status": "completed",
+      "overall_severity": {
+        "level": "CRITICAL",
+        "reason": "Current value is zero"
+      },
+      "metrics": {
+        "total_events": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 4,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        },
+        "unique_users": {
+          "current": 0,
+          "previous": 0,
+          "yesterday": 1,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "NO_DATA"
+            },
+            "vs_yesterday": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "CRITICAL",
+            "reason": "Current value is zero"
+          }
+        }
+      }
+    },
+    {
+      "action": "redemption_response",
+      "client_type": "web",
+      "status": "cancel",
+      "overall_severity": {
+        "level": "WARNING",
+        "reason": "Worst drop: 40%"
+      },
+      "metrics": {
+        "total_events": {
+          "current": 9,
+          "previous": 5,
+          "yesterday": 15,
+          "two_days_ago": 9,
+          "change": {
+            "vs_previous": {
+              "percent": 80,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -40,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 40%"
+          }
+        },
+        "unique_users": {
+          "current": 3,
+          "previous": 4,
+          "yesterday": 4,
+          "two_days_ago": 3,
+          "change": {
+            "vs_previous": {
+              "percent": -25,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -25,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "ATTENTION",
+            "reason": "Worst drop: 25%"
+          }
+        }
+      }
+    },
+    {
+      "action": "redemption_attempt",
+      "client_type": "app",
+      "status": "unknown",
+      "overall_severity": {
+        "level": "WARNING",
+        "reason": "Worst drop: 57.14%"
+      },
+      "metrics": {
+        "total_events": {
+          "current": 3,
+          "previous": 7,
+          "yesterday": 1,
+          "two_days_ago": 7,
+          "change": {
+            "vs_previous": {
+              "percent": -57.14,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 200,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -57.14,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 57.14%"
+          }
+        },
+        "unique_users": {
+          "current": 2,
+          "previous": 5,
+          "yesterday": 1,
+          "two_days_ago": 1,
+          "change": {
+            "vs_previous": {
+              "percent": -60,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": 100,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 60%"
+          }
+        }
+      }
+    },
+    {
+      "action": "redemption_response",
+      "client_type": "web",
+      "status": "manual_review",
+      "overall_severity": {
+        "level": "WARNING",
+        "reason": "Worst drop: 40%"
+      },
+      "metrics": {
+        "total_events": {
+          "current": 3,
+          "previous": 1,
+          "yesterday": 5,
+          "two_days_ago": 5,
+          "change": {
+            "vs_previous": {
+              "percent": 200,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -40,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -40,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 40%"
+          }
+        },
+        "unique_users": {
+          "current": 3,
+          "previous": 1,
+          "yesterday": 5,
+          "two_days_ago": 5,
+          "change": {
+            "vs_previous": {
+              "percent": 200,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -40,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -40,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 40%"
+          }
+        }
+      }
+    },
+    {
+      "action": "redemption_response",
+      "client_type": "web",
+      "status": "completed",
+      "overall_severity": {
+        "level": "WARNING",
+        "reason": "Worst drop: 50%"
+      },
+      "metrics": {
+        "total_events": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 2,
+          "two_days_ago": 2,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        },
+        "unique_users": {
+          "current": 1,
+          "previous": 1,
+          "yesterday": 1,
+          "two_days_ago": 2,
+          "change": {
+            "vs_previous": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_yesterday": {
+              "percent": 0,
+              "status": "COMPARABLE"
+            },
+            "vs_two_days_ago": {
+              "percent": -50,
+              "status": "COMPARABLE"
+            }
+          },
+          "severity": {
+            "level": "WARNING",
+            "reason": "Worst drop: 50%"
+          }
+        }
+      }
+    }
+  ]
+}

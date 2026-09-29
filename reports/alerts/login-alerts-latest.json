@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "monitor": "login",
+    "generatedAtUtc": "2026-09-22T07:13:56.081Z",
+    "sourceComparison": "reports/comparison/login-comparison-latest.json",
+    "config": {
+      "name": "login",
+      "slug": "login",
+      "displayName": "Login",
+      "enabled": true,
+      "dimensions": [
+        "client_type"
+      ],
+      "metrics": [
+        "total_logins",
+        "unique_users"
+      ],
+      "primaryMetric": "unique_users",
+      "metricLabels": {
+        "total_logins": "Login Events",
+        "unique_users": "Unique Login Users"
+      },
+      "comparisonThresholds": {
+        "attention": 20,
+        "warning": 40,
+        "critical": 60
+      },
+      "collectorEnabled": true,
+      "compareEnabled": true,
+      "alertEnabled": true,
+      "reportEnabled": false,
+      "notificationChannel": "SLACK_WEBHOOK_LOGINS",
+      "debugChannelIdEnvKey": "SLACK_CHANNEL_LOGINS"
+    }
+  },
+  "summary": {
+    "total_comparisons": 2,
+    "total_alerts": 0,
+    "critical": 0,
+    "warning": 0,
+    "attention": 0,
+    "ignored": 0
+  },
+  "alerts": [],
+  "ignored": []
+}

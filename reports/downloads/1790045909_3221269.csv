@@ -1,0 +1,14 @@
+action,"client_type",type,status,"total_events","unique_users"
+"redemption_attempt",app,"debit_card",unknown,4,3
+"redemption_attempt",web,ach,unknown,1,1
+"redemption_attempt",web,"debit_card",unknown,9,5
+"redemption_response",app,"debit_card",completed,2,1
+"redemption_response",app,"debit_card","manual_review",2,2
+"redemption_response",app,"debit_card",approved,1,1
+"redemption_response",app,"debit_card",pending,1,1
+"redemption_response",web,ach,"manual_review",2,2
+"redemption_response",web,"debit_card",cancel,5,2
+"redemption_response",web,"debit_card","manual_review",4,4
+"redemption_response",web,"debit_card",approved,2,2
+"redemption_response",web,"debit_card",pending,2,2
+"redemption_response",web,"gift_card",cancel,1,1

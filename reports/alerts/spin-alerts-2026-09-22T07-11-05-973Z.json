@@ -1,0 +1,693 @@
+{
+  "metadata": {
+    "monitor": "spin_event",
+    "generatedAtUtc": "2026-09-22T07:11:05.972Z",
+    "sourceComparison": "reports/comparison/spin-comparison-latest.json",
+    "config": {
+      "name": "spin_event",
+      "slug": "spin",
+      "displayName": "Spin Event",
+      "enabled": true,
+      "dimensions": [
+        "provider",
+        "client_type",
+        "spin_type",
+        "unit_name"
+      ],
+      "metrics": [
+        "total_spins",
+        "unique_users"
+      ],
+      "primaryMetric": "total_spins",
+      "metricLabels": {
+        "total_spins": "Spins",
+        "unique_users": "Users"
+      },
+      "comparisonThresholds": {
+        "attention": 20,
+        "warning": 40,
+        "critical": 60
+      },
+      "collectorEnabled": true,
+      "compareEnabled": true,
+      "alertEnabled": true,
+      "reportEnabled": false,
+      "notificationChannel": "SLACK_WEBHOOK_SPINS",
+      "debugChannelIdEnvKey": "SLACK_CHANNEL_SPINS"
+    }
+  },
+  "summary": {
+    "total_comparisons": 33,
+    "total_alerts": 14,
+    "critical": 2,
+    "warning": 4,
+    "attention": 8,
+    "ignored": 14
+  },
+  "alerts": [
+    {
+      "severity": "CRITICAL",
+      "title": "Rgs · Web · Regular · Gold",
+      "dimensions": {
+        "provider": "rgs",
+        "client_type": "web",
+        "spin_type": "regular",
+        "unit_name": "gold"
+      },
+      "primary_metric": "total_spins",
+      "reason": "Spins dropped 93.74% compared with previous 2 hours",
+      "recommendation": "Review Spin Event traffic in Splunk and check related errors.",
+      "metrics": {
+        "total_spins": {
+          "name": "total_spins",
+          "label": "Spins",
+          "current": 59,
+          "previous": 943,
+          "yesterday": 890,
+          "two_days_ago": 470,
+          "worst_drop_percent": 93.74,
+          "worst_drop_window": "previous",
+          "worst_drop_label": "previous 2 hours"
+        },
+        "unique_users": {
+          "name": "unique_users",
+          "label": "Users",
+          "current": 7,
+          "previous": 8,
+          "yesterday": 11,
+          "two_days_ago": 8,
+          "worst_drop_percent": 36.36,
+          "worst_drop_window": "yesterday",
+          "worst_drop_label": "same 2 hours yesterday"
+        }
+      },
+      "worst_drop_percent": 93.74,
+      "worst_drop_metric": "total_spins"
+    },
+    {
+      "severity": "CRITICAL",
+      "title": "Ruby Play · App · Regular · Sweep",
+      "dimensions": {
+        "provider": "ruby_play",
+        "client_type": "app",
+        "spin_type": "regular",
+        "unit_name": "sweep"
+      },
+      "primary_metric": "total_spins",
+      "reason": "Spins dropped 70.95% compared with previous 2 hours",
+      "recommendation": "Review Spin Event traffic in Splunk and check related errors.",
+      "metrics": {
+        "total_spins": {
+          "name": "total_spins",
+          "label": "Spins",
+          "current": 622,
+          "previous": 2141,
+          "yesterday": 1183,
+          "two_days_ago": 1080,
+          "worst_drop_percent": 70.95,
+          "worst_drop_window": "previous",
+          "worst_drop_label": "previous 2 hours"
+        },
+        "unique_users": {
+          "name": "unique_users",
+          "label": "Users",
+          "current": 10,
+          "previous": 20,
+          "yesterday": 13,
+          "two_days_ago": 13,
+          "worst_drop_percent": 50,
+          "worst_drop_window": "previous",
+          "worst_drop_label": "previous 2 hours"
+        }
+      },
+      "worst_drop_percent": 70.95,
+      "worst_drop_metric": "total_spins"
+    },
+    {
+      "severity": "WARNING",
+      "title": "Booming Games · App · Free Spin · Sweep",
+      "dimensions": {
+        "provider": "booming_games",
+        "client_type": "app",
+        "spin_type": "free_spin",
+        "unit_name": "sweep"
+      },
+      "primary_metric": "total_spins",
+      "reason": "Spins dropped 56.78% compared with same 2 hours yesterday",
+      "recommendation": "Review Spin Event traffic in Splunk and check related errors.",
+      "metrics": {
+        "total_spins": {
+          "name": "total_spins",
+          "label": "Spins",
+          "current": 118,
+          "previous": 258,
+          "yesterday": 273,
+          "two_days_ago": 217,
+          "worst_drop_percent": 56.78,
+          "worst_drop_window": "yesterday",
+          "worst_drop_label": "same 2 hours yesterday"
+        }
+      },
+      "worst_drop_percent": 56.78,
+      "worst_drop_metric": "total_spins"
+    },
+    {
+      "severity": "WARNING",
+      "title": "Ps · App · Regular · Sweep",
+      "dimensions": {
+        "provider": "ps",
+        "client_type": "app",
+        "spin_type": "regular",
+        "unit_name": "sweep"
+      },
+      "primary_metric": "total_spins",
+      "reason": "Spins dropped 49.81% compared with previous 2 hours",
+      "recommendation": "Review Spin Event traffic in Splunk and check related errors.",
+      "metrics": {
+        "total_spins": {
+          "name": "total_spins",
+          "label": "Spins",
+          "current": 1896,
+          "previous": 3778,
+          "yesterday": 2899,
+          "two_days_ago": 1729,
+          "worst_drop_percent": 49.81,
+          "worst_drop_window": "previous",
+          "worst_drop_label": "previous 2 hours"
+        },
+        "unique_users": {
+          "name": "unique_users",
+          "label": "Users",
+          "current": 62,
+          "previous": 68,
+          "yesterday": 48,
+          "two_days_ago": 55,
+          "worst_drop_percent": 8.82,
+          "worst_drop_window": "previous",
+          "worst_drop_label": "previous 2 hours"
+        }
+      },
+      "worst_drop_percent": 49.81,
+      "worst_drop_metric": "total_spins"
+    },
+    {
+      "severity": "WARNING",
+      "title": "Ruby Play · Web · Regular · Sweep",
+      "dimensions": {
+        "provider": "ruby_play",
+        "client_type": "web",
+        "spin_type": "regular",
+        "unit_name": "sweep"
+      },
+      "primary_metric": "unique_users",
+      "reason": "Users dropped 49.02% compared with same 2 hours two days ago",
+      "recommendation": "Review Spin Event traffic in Splunk and check related errors.",
+      "metrics": {
+        "unique_users": {
+          "name": "unique_users",
+          "label": "Users",
+          "current": 26,
+          "previous": 45,
+          "yesterday": 36,
+          "two_days_ago": 51,
+          "worst_drop_percent": 49.02,
+          "worst_drop_window": "two_days_ago",
+          "worst_drop_label": "same 2 hours two days ago"
+        }
+      },
+      "worst_drop_percent": 49.02,
+      "worst_drop_metric": "unique_users"
+    },
+    {
+      "severity": "WARNING",
+      "title": "Ps · Web · Regular · Gold",
+      "dimensions": {
+        "provider": "ps",
+        "client_type": "web",
+        "spin_type": "regular",
+        "unit_name": "gold"
+      },
+      "primary_metric": "total_spins",
+      "reason": "Spins dropped 40.29% compared with same 2 hours yesterday",
+      "recommendation": "Review Spin Event traffic in Splunk and check related errors.",
+      "metrics": {
+        "total_spins": {
+          "name": "total_spins",
+          "label": "Spins",
+          "current": 818,
+          "previous": 1146,
+          "yesterday": 1370,
+          "two_days_ago": 451,
+          "worst_drop_percent": 40.29,
+          "worst_drop_window": "yesterday",
+          "worst_drop_label": "same 2 hours yesterday"
+        },
+        "unique_users": {
+          "name": "unique_users",
+          "label": "Users",
+          "current": 15,
+          "previous": 12,
+          "yesterday": 19,
+          "two_days_ago": 11,
+          "worst_drop_percent": 21.05,
+          "worst_drop_window": "yesterday",
+          "worst_drop_label": "same 2 hours yesterday"
+        }
+      },
+      "worst_drop_percent": 40.29,
+      "worst_drop_metric": "total_spins"
+    },
+    {
+      "severity": "ATTENTION",
+      "title": "Booming Games · App · Regular · Sweep",
+      "dimensions": {
+        "provider": "booming_games",
+        "client_type": "app",
+        "spin_type": "regular",
+        "unit_name": "sweep"
+      },
+      "primary_metric": "total_spins",
+      "reason": "Spins dropped 38.84% compared with same 2 hours yesterday",
+      "recommendation": "Review Spin Event traffic in Splunk and check related errors.",
+      "metrics": {
+        "total_spins": {
+          "name": "total_spins",
+          "label": "Spins",
+          "current": 1184,
+          "previous": 1118,
+          "yesterday": 1936,
+          "two_days_ago": 1354,
+          "worst_drop_percent": 38.84,
+          "worst_drop_window": "yesterday",
+          "worst_drop_label": "same 2 hours yesterday"
+        },
+        "unique_users": {
+          "name": "unique_users",
+          "label": "Users",
+          "current": 25,
+          "previous": 26,
+          "yesterday": 20,
+          "two_days_ago": 24,
+          "worst_drop_percent": 3.85,
+          "worst_drop_window": "previous",
+          "worst_drop_label": "previous 2 hours"
+        }
+      },
+      "worst_drop_percent": 38.84,
+      "worst_drop_metric": "total_spins"
+    },
+    {
+      "severity": "ATTENTION",
+      "title": "Ps · App · Free Spin · Sweep",
+      "dimensions": {
+        "provider": "ps",
+        "client_type": "app",
+        "spin_type": "free_spin",
+        "unit_name": "sweep"
+      },
+      "primary_metric": "total_spins",
+      "reason": "Spins dropped 36.96% compared with previous 2 hours",
+      "recommendation": "Review Spin Event traffic in Splunk and check related errors.",
+      "metrics": {
+        "total_spins": {
+          "name": "total_spins",
+          "label": "Spins",
+          "current": 29,
+          "previous": 46,
+          "yesterday": 37,
+          "two_days_ago": 32,
+          "worst_drop_percent": 36.96,
+          "worst_drop_window": "previous",
+          "worst_drop_label": "previous 2 hours"
+        },
+        "unique_users": {
+          "name": "unique_users",
+          "label": "Users",
+          "current": 11,
+          "previous": 14,
+          "yesterday": 16,
+          "two_days_ago": 13,
+          "worst_drop_percent": 31.25,
+          "worst_drop_window": "yesterday",
+          "worst_drop_label": "same 2 hours yesterday"
+        }
+      },
+      "worst_drop_percent": 36.96,
+      "worst_drop_metric": "total_spins"
+    },
+    {
+      "severity": "ATTENTION",
+      "title": "Booming Games · Web · Regular · Gold",
+      "dimensions": {
+        "provider": "booming_games",
+        "client_type": "web",
+        "spin_type": "regular",
+        "unit_name": "gold"
+      },
+      "primary_metric": "unique_users",
+      "reason": "Users dropped 36.36% compared with same 2 hours yesterday",
+      "recommendation": "Review Spin Event traffic in Splunk and check related errors.",
+      "metrics": {
+        "unique_users": {
+          "name": "unique_users",
+          "label": "Users",
+          "current": 7,
+          "previous": 4,
+          "yesterday": 11,
+          "two_days_ago": 3,
+          "worst_drop_percent": 36.36,
+          "worst_drop_window": "yesterday",
+          "worst_drop_label": "same 2 hours yesterday"
+        }
+      },
+      "worst_drop_percent": 36.36,
+      "worst_drop_metric": "unique_users"
+    },
+    {
+      "severity": "ATTENTION",
+      "title": "Booming Games · Web · Free Spin · Sweep",
+      "dimensions": {
+        "provider": "booming_games",
+        "client_type": "web",
+        "spin_type": "free_spin",
+        "unit_name": "sweep"
+      },
+      "primary_metric": "total_spins",
+      "reason": "Spins dropped 34.35% compared with same 2 hours two days ago",
+      "recommendation": "Review Spin Event traffic in Splunk and check related errors.",
+      "metrics": {
+        "total_spins": {
+          "name": "total_spins",
+          "label": "Spins",
+          "current": 711,
+          "previous": 641,
+          "yesterday": 682,
+          "two_days_ago": 1083,
+          "worst_drop_percent": 34.35,
+          "worst_drop_window": "two_days_ago",
+          "worst_drop_label": "same 2 hours two days ago"
+        }
+      },
+      "worst_drop_percent": 34.35,
+      "worst_drop_metric": "total_spins"
+    },
+    {
+      "severity": "ATTENTION",
+      "title": "Ps · Web · Regular · Sweep",
+      "dimensions": {
+        "provider": "ps",
+        "client_type": "web",
+        "spin_type": "regular",
+        "unit_name": "sweep"
+      },
+      "primary_metric": "total_spins",
+      "reason": "Spins dropped 30.17% compared with same 2 hours two days ago",
+      "recommendation": "Review Spin Event traffic in Splunk and check related errors.",
+      "metrics": {
+        "total_spins": {
+          "name": "total_spins",
+          "label": "Spins",
+          "current": 5654,
+          "previous": 7578,
+          "yesterday": 5945,
+          "two_days_ago": 8097,
+          "worst_drop_percent": 30.17,
+          "worst_drop_window": "two_days_ago",
+          "worst_drop_label": "same 2 hours two days ago"
+        },
+        "unique_users": {
+          "name": "unique_users",
+          "label": "Users",
+          "current": 144,
+          "previous": 175,
+          "yesterday": 170,
+          "two_days_ago": 172,
+          "worst_drop_percent": 17.71,
+          "worst_drop_window": "previous",
+          "worst_drop_label": "previous 2 hours"
+        }
+      },
+      "worst_drop_percent": 30.17,
+      "worst_drop_metric": "total_spins"
+    },
+    {
+      "severity": "ATTENTION",
+      "title": "Rgs · Web · Regular · Sweep",
+      "dimensions": {
+        "provider": "rgs",
+        "client_type": "web",
+        "spin_type": "regular",
+        "unit_name": "sweep"
+      },
+      "primary_metric": "total_spins",
+      "reason": "Spins dropped 24.62% compared with previous 2 hours",
+      "recommendation": "Review Spin Event traffic in Splunk and check related errors.",
+      "metrics": {
+        "total_spins": {
+          "name": "total_spins",
+          "label": "Spins",
+          "current": 4384,
+          "previous": 5816,
+          "yesterday": 5352,
+          "two_days_ago": 3044,
+          "worst_drop_percent": 24.62,
+          "worst_drop_window": "previous",
+          "worst_drop_label": "previous 2 hours"
+        },
+        "unique_users": {
+          "name": "unique_users",
+          "label": "Users",
+          "current": 77,
+          "previous": 86,
+          "yesterday": 92,
+          "two_days_ago": 78,
+          "worst_drop_percent": 16.3,
+          "worst_drop_window": "yesterday",
+          "worst_drop_label": "same 2 hours yesterday"
+        }
+      },
+      "worst_drop_percent": 24.62,
+      "worst_drop_metric": "total_spins"
+    },
+    {
+      "severity": "ATTENTION",
+      "title": "Ps · Web · Free Spin · Sweep",
+      "dimensions": {
+        "provider": "ps",
+        "client_type": "web",
+        "spin_type": "free_spin",
+        "unit_name": "sweep"
+      },
+      "primary_metric": "total_spins",
+      "reason": "Spins dropped 21.64% compared with previous 2 hours",
+      "recommendation": "Review Spin Event traffic in Splunk and check related errors.",
+      "metrics": {
+        "total_spins": {
+          "name": "total_spins",
+          "label": "Spins",
+          "current": 105,
+          "previous": 134,
+          "yesterday": 95,
+          "two_days_ago": 99,
+          "worst_drop_percent": 21.64,
+          "worst_drop_window": "previous",
+          "worst_drop_label": "previous 2 hours"
+        },
+        "unique_users": {
+          "name": "unique_users",
+          "label": "Users",
+          "current": 32,
+          "previous": 39,
+          "yesterday": 40,
+          "two_days_ago": 42,
+          "worst_drop_percent": 23.81,
+          "worst_drop_window": "two_days_ago",
+          "worst_drop_label": "same 2 hours two days ago"
+        }
+      },
+      "worst_drop_percent": 23.81,
+      "worst_drop_metric": "unique_users"
+    },
+    {
+      "severity": "ATTENTION",
+      "title": "Booming Games · Web · Regular · Sweep",
+      "dimensions": {
+        "provider": "booming_games",
+        "client_type": "web",
+        "spin_type": "regular",
+        "unit_name": "sweep"
+      },
+      "primary_metric": "total_spins",
+      "reason": "Spins dropped 21.85% compared with same 2 hours two days ago",
+      "recommendation": "Review Spin Event traffic in Splunk and check related errors.",
+      "metrics": {
+        "total_spins": {
+          "name": "total_spins",
+          "label": "Spins",
+          "current": 5875,
+          "previous": 6303,
+          "yesterday": 4452,
+          "two_days_ago": 7518,
+          "worst_drop_percent": 21.85,
+          "worst_drop_window": "two_days_ago",
+          "worst_drop_label": "same 2 hours two days ago"
+        },
+        "unique_users": {
+          "name": "unique_users",
+          "label": "Users",
+          "current": 60,
+          "previous": 76,
+          "yesterday": 67,
+          "two_days_ago": 69,
+          "worst_drop_percent": 21.05,
+          "worst_drop_window": "previous",
+          "worst_drop_label": "previous 2 hours"
+        }
+      },
+      "worst_drop_percent": 21.85,
+      "worst_drop_metric": "total_spins"
+    }
+  ],
+  "ignored": [
+    {
+      "dimensions": {
+        "provider": "rgs",
+        "client_type": "app",
+        "spin_type": "regular",
+        "unit_name": "gold"
+      },
+      "title": "Rgs · App · Regular · Gold",
+      "reason": "Users current volume is too low: 1"
+    },
+    {
+      "dimensions": {
+        "provider": "ruby_play",
+        "client_type": "app",
+        "spin_type": "regular",
+        "unit_name": "gold"
+      },
+      "title": "Ruby Play · App · Regular · Gold",
+      "reason": "Users current volume is too low: 2"
+    },
+    {
+      "dimensions": {
+        "provider": "ruby_play",
+        "client_type": "app",
+        "spin_type": "buy_bonus",
+        "unit_name": "sweep"
+      },
+      "title": "Ruby Play · App · Buy Bonus · Sweep",
+      "reason": "Spins current volume is too low: 7"
+    },
+    {
+      "dimensions": {
+        "provider": "ruby_play",
+        "client_type": "web",
+        "spin_type": "buy_bonus",
+        "unit_name": "sweep"
+      },
+      "title": "Ruby Play · Web · Buy Bonus · Sweep",
+      "reason": "Spins current volume is too low: 2"
+    },
+    {
+      "dimensions": {
+        "provider": "rgs",
+        "client_type": "app",
+        "spin_type": "buy_bonus",
+        "unit_name": "sweep"
+      },
+      "title": "Rgs · App · Buy Bonus · Sweep",
+      "reason": "Users current volume is too low: 1"
+    },
+    {
+      "dimensions": {
+        "provider": "ruby_play",
+        "client_type": "web",
+        "spin_type": "regular",
+        "unit_name": "gold"
+      },
+      "title": "Ruby Play · Web · Regular · Gold",
+      "reason": "Users current volume is too low: 3"
+    },
+    {
+      "dimensions": {
+        "provider": "rgs",
+        "client_type": "web",
+        "spin_type": "buy_bonus",
+        "unit_name": "sweep"
+      },
+      "title": "Rgs · Web · Buy Bonus · Sweep",
+      "reason": "Users current volume is too low: 4"
+    },
+    {
+      "dimensions": {
+        "provider": "ps",
+        "client_type": "web",
+        "spin_type": "free_spin",
+        "unit_name": "gold"
+      },
+      "title": "Ps · Web · Free Spin · Gold",
+      "reason": "Users current volume is too low: 4"
+    },
+    {
+      "dimensions": {
+        "provider": "ps",
+        "client_type": "app",
+        "spin_type": "buy_bonus",
+        "unit_name": "sweep"
+      },
+      "title": "Ps · App · Buy Bonus · Sweep",
+      "reason": "Spins current volume is too low: 5"
+    },
+    {
+      "dimensions": {
+        "provider": "booming_games",
+        "client_type": "web",
+        "spin_type": "free_spin",
+        "unit_name": "gold"
+      },
+      "title": "Booming Games · Web · Free Spin · Gold",
+      "reason": "Users current volume is too low: 3"
+    },
+    {
+      "dimensions": {
+        "provider": "booming_games",
+        "client_type": "app",
+        "spin_type": "regular",
+        "unit_name": "gold"
+      },
+      "title": "Booming Games · App · Regular · Gold",
+      "reason": "Users current volume is too low: 2"
+    },
+    {
+      "dimensions": {
+        "provider": "booming_games",
+        "client_type": "app",
+        "spin_type": "free_spin",
+        "unit_name": "gold"
+      },
+      "title": "Booming Games · App · Free Spin · Gold",
+      "reason": "Users current volume is too low: 1"
+    },
+    {
+      "dimensions": {
+        "provider": "rgs",
+        "client_type": "web",
+        "spin_type": "buy_bonus",
+        "unit_name": "gold"
+      },
+      "title": "Rgs · Web · Buy Bonus · Gold",
+      "reason": "Users current volume is too low: 1"
+    },
+    {
+      "dimensions": {
+        "provider": "ps",
+        "client_type": "app",
+        "spin_type": "free_spin",
+        "unit_name": "gold"
+      },
+      "title": "Ps · App · Free Spin · Gold",
+      "reason": "Spins current volume is too low: 3"
+    }
+  ]
+}

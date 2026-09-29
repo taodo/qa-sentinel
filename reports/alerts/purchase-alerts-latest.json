@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "monitor": "purchase_response",
+    "generatedAtUtc": "2026-09-22T07:12:30.728Z",
+    "sourceComparison": "reports/comparison/purchase-comparison-latest.json",
+    "config": {
+      "name": "purchase_response",
+      "slug": "purchase",
+      "displayName": "Purchase Response",
+      "enabled": true,
+      "dimensions": [
+        "client_type",
+        "payment_type"
+      ],
+      "metrics": [
+        "completed",
+        "purchasing_users"
+      ],
+      "primaryMetric": "completed",
+      "metricLabels": {
+        "completed": "Completed Purchases",
+        "purchasing_users": "Purchasing Users"
+      },
+      "comparisonThresholds": {
+        "attention": 20,
+        "warning": 40,
+        "critical": 60
+      },
+      "collectorEnabled": true,
+      "compareEnabled": true,
+      "alertEnabled": true,
+      "reportEnabled": false,
+      "notificationChannel": "SLACK_WEBHOOK_PURCHASES",
+      "debugChannelIdEnvKey": "SLACK_CHANNEL_PURCHASES"
+    }
+  },
+  "summary": {
+    "total_comparisons": 6,
+    "total_alerts": 4,
+    "critical": 2,
+    "warning": 1,
+    "attention": 1,
+    "ignored": 0
+  },
+  "alerts": [
+    {
+      "severity": "CRITICAL",
+      "title": "App · Credit Card",
+      "dimensions": {
+        "client_type": "app",
+        "payment_type": "credit_card"
+      },
+      "primary_metric": "completed",
+      "reason": "Completed Purchases dropped 92.86% compared with same 2 hours yesterday",
+      "recommendation": "Review Purchase Response traffic in Splunk and check related errors.",
+      "metrics": {
+        "completed": {
+          "name": "completed",
+          "label": "Completed Purchases",
+          "current": 1,
+          "previous": 3,
+          "yesterday": 14,
+          "two_days_ago": 4,
+          "worst_drop_percent": 92.86,
+          "worst_drop_window": "yesterday",
+          "worst_drop_label": "same 2 hours yesterday"
+        }
+      },
+      "worst_drop_percent": 92.86,
+      "worst_drop_metric": "completed"
+    },
+    {
+      "severity": "CRITICAL",
+      "title": "Web · Apple Pay",
+      "dimensions": {
+        "client_type": "web",
+        "payment_type": "apple_pay"
+      },
+      "primary_metric": "completed",
+      "reason": "Completed Purchases dropped 29.03% compared with same 2 hours two days ago",
+      "recommendation": "Review Purchase Response traffic in Splunk and check related errors.",
+      "metrics": {
+        "completed": {
+          "name": "completed",
+          "label": "Completed Purchases",
+          "current": 22,
+          "previous": 11,
+          "yesterday": 8,
+          "two_days_ago": 31,
+          "worst_drop_percent": 29.03,
+          "worst_drop_window": "two_days_ago",
+          "worst_drop_label": "same 2 hours two days ago"
+        },
+        "purchasing_users": {
+          "name": "purchasing_users",
+          "label": "Purchasing Users",
+          "current": 4,
+          "previous": 9,
+          "yesterday": 6,
+          "two_days_ago": 11,
+          "worst_drop_percent": 63.64,
+          "worst_drop_window": "two_days_ago",
+          "worst_drop_label": "same 2 hours two days ago"
+        }
+      },
+      "worst_drop_percent": 63.64,
+      "worst_drop_metric": "purchasing_users"
+    },
+    {
+      "severity": "WARNING",
+      "title": "Web · Credit Card",
+      "dimensions": {
+        "client_type": "web",
+        "payment_type": "credit_card"
+      },
+      "primary_metric": "completed",
+      "reason": "Completed Purchases dropped 48.31% compared with same 2 hours two days ago",
+      "recommendation": "Review Purchase Response traffic in Splunk and check related errors.",
+      "metrics": {
+        "completed": {
+          "name": "completed",
+          "label": "Completed Purchases",
+          "current": 46,
+          "previous": 56,
+          "yesterday": 48,
+          "two_days_ago": 89,
+          "worst_drop_percent": 48.31,
+          "worst_drop_window": "two_days_ago",
+          "worst_drop_label": "same 2 hours two days ago"
+        },
+        "purchasing_users": {
+          "name": "purchasing_users",
+          "label": "Purchasing Users",
+          "current": 18,
+          "previous": 25,
+          "yesterday": 17,
+          "two_days_ago": 29,
+          "worst_drop_percent": 37.93,
+          "worst_drop_window": "two_days_ago",
+          "worst_drop_label": "same 2 hours two days ago"
+        }
+      },
+      "worst_drop_percent": 48.31,
+      "worst_drop_metric": "completed"
+    },
+    {
+      "severity": "ATTENTION",
+      "title": "App · Apple Pay",
+      "dimensions": {
+        "client_type": "app",
+        "payment_type": "apple_pay"
+      },
+      "primary_metric": "completed",
+      "reason": "Completed Purchases dropped 36.67% compared with previous 2 hours",
+      "recommendation": "Review Purchase Response traffic in Splunk and check related errors.",
+      "metrics": {
+        "completed": {
+          "name": "completed",
+          "label": "Completed Purchases",
+          "current": 19,
+          "previous": 30,
+          "yesterday": 6,
+          "two_days_ago": 8,
+          "worst_drop_percent": 36.67,
+          "worst_drop_window": "previous",
+          "worst_drop_label": "previous 2 hours"
+        },
+        "purchasing_users": {
+          "name": "purchasing_users",
+          "label": "Purchasing Users",
+          "current": 9,
+          "previous": 14,
+          "yesterday": 4,
+          "two_days_ago": 6,
+          "worst_drop_percent": 35.71,
+          "worst_drop_window": "previous",
+          "worst_drop_label": "previous 2 hours"
+        }
+      },
+      "worst_drop_percent": 36.67,
+      "worst_drop_metric": "completed"
+    }
+  ],
+  "ignored": []
+}
